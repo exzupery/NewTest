@@ -1,0 +1,1161 @@
+[ 6- 1-2012 17:48:13:223]- LOG(2550): PRODUCTInst--
+[ 6- 1-2012 17:48:13:224]- LOG(2550): InitProperties - retrieve props from file 'C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\properties.ini'
+[ 6- 1-2012 17:48:13:254]- LOG(2550): Installer version: 1.0.5.3
+[ 6- 1-2012 17:48:13:255]- LOG(2550):  --- Language IDs ---
+[ 6- 1-2012 17:48:13:256]- LOG(2550):   User Default UI Language =   1049,   0x419
+[ 6- 1-2012 17:48:13:256]- LOG(2550):   System Default UI Language = 1049,   0x419
+[ 6- 1-2012 17:48:13:257]- LOG(2550):   User Default Language ID =   1049,   0x419
+[ 6- 1-2012 17:48:13:258]- LOG(2550):   System Default Language ID = 1049,   0x419
+[ 6- 1-2012 17:48:13:259]- LOG(2550):   Language ID To Be Used =     1049,   0x419
+[ 6- 1-2012 17:48:13:260]- LOG(2550): Is64BitWindows()
+[ 6- 1-2012 17:48:13:260]- LOG(2550): Is64BitWindows?  YES
+[ 6- 1-2012 17:48:13:261]- LOG(2550): OS is 64 bit
+[ 6- 1-2012 17:48:13:262]- LOG(2550): cmdline 'PRODUCTI'
+[ 6- 1-2012 17:48:13:263]- LOG(2550): -\/\/\/- Properties -\/\/\/-
+[ 6- 1-2012 17:48:13:264]- LOG(2550): SCAN_INFNAME = agmcrdrv.inf
+[ 6- 1-2012 17:48:13:264]- LOG(2550): PRINT_INFNAME = HPLJM1005.INF
+[ 6- 1-2012 17:48:13:265]- LOG(2550): PRINT_VERNAME = HPM1005SU.VER
+[ 6- 1-2012 17:48:13:266]- LOG(2550): PRINTER_SERIES_NAME = HP LaserJet M1005 series
+[ 6- 1-2012 17:48:13:267]- LOG(2550): PRODUCT_VIDPID = VID_03F0&PID_3B17
+[ 6- 1-2012 17:48:13:268]- LOG(2550): REG_INSTALLKEY = HP LaserJet M1005 series
+[ 6- 1-2012 17:48:13:269]- LOG(2550): ISRUNNING_MUTEX_NAME = HPM1005Installexists
+[ 6- 1-2012 17:48:13:269]- LOG(2550): INSTALL_DIRECTORY = HP LaserJet M1005 series
+[ 6- 1-2012 17:48:13:270]- LOG(2550): CORE32_MSIS = vcredist\rtm\vcredist.msi, vcredist\sp1\vcredist.msi
+[ 6- 1-2012 17:48:13:271]- LOG(2550): -/\/\/\- Properties -/\/\/\-
+[ 6- 1-2012 17:48:13:272]- LOG(2550): PRODUCT Installer ---------------------------------------------------
+[ 6- 1-2012 17:48:13:273]- LOG(2550): InstallSequencer()
+[ 6- 1-2012 17:48:13:274]- LOG(2550): InstallSequencer() step = 0
+[ 6- 1-2012 17:48:13:275]- LOG(2550): InstallSequencer() step = 1
+[ 6- 1-2012 17:48:13:276]- LOG(2550): --- InitializeStep ---
+[ 6- 1-2012 17:48:13:277]- LOG(2550): GetLandDir - Russian
+[ 6- 1-2012 17:48:13:278]- LOG(2550):   print inf:C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\HPLJM1005.INF
+[ 6- 1-2012 17:48:13:279]- LOG(2550):   scan inf:C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\agmcrdrv.inf
+[ 6- 1-2012 17:48:13:280]- LOG(2550):   printer verion file: C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\HPM1005SU.VER
+[ 6- 1-2012 17:48:13:281]- LOG(2550):   printer series name: HP LaserJet M1005 series
+[ 6- 1-2012 17:48:13:282]- LOG(2550): GetPrinternamesFromINF()
+[ 6- 1-2012 17:48:13:297]- LOG(2550): InstallSequencer() step = 3
+[ 6- 1-2012 17:48:13:298]- LOG(2550): --- LicenseStep --- 
+[ 6- 1-2012 17:48:13:299]- LOG(2550):  License file: 'C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\license.txt'
+[ 6- 1-2012 17:48:13:328]- LOG(2550): IDLCDialog::OnInitDialog() m_positionOnBottom=0, m_topmost=1, m_followPosition=0
+[ 6- 1-2012 17:48:13:335]- LOG(2550): IDLCGenericTextDlg::OnInitDialog 
+[ 6- 1-2012 17:48:13:337]- LOG(2550): Strings(): stringsDllPath: C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\strings.dll
+[ 6- 1-2012 17:48:13:427]- LOG(2550): IDLCGenericTextDlg::OnInitDialog -- load text from file 'C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\license.txt'
+[ 6- 1-2012 17:48:13:438]- LOG(2550): Text is plain
+[ 6- 1-2012 17:48:16:073]- LOG(2550):  -[ IDLCGenericTextDlg BUTTON 1 pressed ]-
+[ 6- 1-2012 17:48:16:080]- LOG(2550): StartProgressDialog()  g_progressDlgRunning = 0
+[ 6- 1-2012 17:48:16:081]- LOG(2550): StartProgressDialog()  Starting progress dialog thread ...
+[ 6- 1-2012 17:48:16:085]- LOG(2550): Checking thread dialog handle 0
+[ 6- 1-2012 17:48:16:092]- LOG(157C): IDLCProgressDlg::OnInitDialog()
+[ 6- 1-2012 17:48:16:094]- LOG(157C): IDLCProgressDlg::DoDataExchange
+[ 6- 1-2012 17:48:16:095]- LOG(157C): IDLCDialog::OnInitDialog() m_positionOnBottom=0, m_topmost=1, m_followPosition=0
+[ 6- 1-2012 17:48:16:587]- LOG(2550): InstallSequencer() step = 5
+[ 6- 1-2012 17:48:16:588]- LOG(2550): --- MsiInstallStep --- 
+[ 6- 1-2012 17:48:16:590]- LOG(2550): Installing 2 Core MSIs --
+[ 6- 1-2012 17:48:16:591]- LOG(2550): ==================== INSTALL MSI ========================
+[ 6- 1-2012 17:48:16:592]- LOG(2550): CMsi::Install(C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\vcredist\rtm\vcredist.msi, )
+[ 6- 1-2012 17:48:16:593]- LOG(2550): CMsi::_Install(C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\vcredist\rtm\vcredist.msi,  REBOOT=ReallySuppress  ADDCLID=1049 )
+[ 6- 1-2012 17:48:16:718]- LOG(2550):   Msi ProductCode = {A49F249F-0C91-497F-86DF-B2585E8E76B7}
+[ 6- 1-2012 17:48:16:719]- LOG(2550):   Msi UpgradeCode = {86C9D5AA-F00C-4921-B3F2-C60AF92E2844}
+[ 6- 1-2012 17:48:16:720]- LOG(2550):   Msi ProductVersion = 8.0.50727.42
+[ 6- 1-2012 17:48:17:355]- LOG(2550): =MSI=>ACTIONDATA: ????????: REDISTFOUNDVERLANG, ???????: DetectRedistVerLangSignature
+[ 6- 1-2012 17:48:17:358]- LOG(2550): =MSI=>ACTIONDATA: ????????: REDISTFOUNDVER, ???????: DetectRedistVerSignature
+[ 6- 1-2012 17:48:17:359]- LOG(2550): =MSI=>ACTIONDATA: ????????: OCMFOUNDVERLANG, ???????: DetectOCMRedistVerLangSignature
+[ 6- 1-2012 17:48:17:361]- LOG(2550): =MSI=>ACTIONDATA: ????????: OCMFOUNDVER, ???????: DetectOCMRedistVerSignature
+[ 6- 1-2012 17:48:17:362]- LOG(2550): =MSI=>ACTIONDATA: ????????: JSHFOUNDVER, ???????: DetectJSHVerSignature
+[ 6- 1-2012 17:48:25:823]- LOG(2550): -----iField0=0, iField1=2098, iField2=0, iField3=1
+[ 6- 1-2012 17:48:27:387]- LOG(2550): =MSI=>ACTIONDATA: ?????????? ??????????? ???????????
+[ 6- 1-2012 17:48:27:397]- LOG(2550): =MSI=>ACTIONDATA: 
+[ 6- 1-2012 17:48:27:416]- LOG(2550): =MSI=>ACTIONDATA: ????: ??????????? ????? ??????,  ???????: ,  ??????: 
+[ 6- 1-2012 17:48:28:469]- LOG(2550): =MSI=>ACTIONDATA: ??????: ?????? ???????? ?????????? ???????, ???: , ????????: 
+[ 6- 1-2012 17:48:28:479]- LOG(2550): =MSI=>ACTIONDATA: ??????????? ????????
+[ 6- 1-2012 17:48:28:488]- LOG(2550): =MSI=>ACTIONDATA: ???????? ??????????:?????????? ???????? ? ??????, ??? ??????:
+[ 6- 1-2012 17:48:28:520]- LOG(2550): =MSI=>ACTIONDATA: ?????????: ?????????? ??????????? ????????
+[ 6- 1-2012 17:48:28:524]- LOG(2550): =MSI=>ACTIONDATA: 
+[ 6- 1-2012 17:48:28:552]- LOG(2550): -----iField0=0, iField1=8836993, iField2=0, iField3=0
+[ 6- 1-2012 17:48:28:555]- LOG(2550): -----iField0=1, iField1=24000, iField2=1, iField3=0
+[ 6- 1-2012 17:48:28:591]- LOG(2550): -----iField0=1, iField1=1, iField2=0, iField3=0
+[ 6- 1-2012 17:48:28:602]- LOG(2550): =MSI=>ACTIONDATA: ????: x86_Microsoft.VC80.ATL_1fc8b3b9a1e18e3b_8.0.50727.42_x-ww_6e805841.manifest,  ???????: ,  ??????: 464
+[ 6- 1-2012 17:48:28:636]- LOG(2550): =MSI=>ACTIONDATA: ????: x86_Microsoft.VC80.ATL_1fc8b3b9a1e18e3b_8.0.50727.42_x-ww_6e805841.cat,  ???????: ,  ??????: 7423
+[ 6- 1-2012 17:48:28:677]- LOG(2550): =MSI=>ACTIONDATA: ????: ATL80.dll,  ???????: ,  ??????: 95744
+[ 6- 1-2012 17:48:28:749]- LOG(2550): =MSI=>ACTIONDATA: ????: x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.42_x-ww_0de06acd.manifest,  ???????: ,  ??????: 1868
+[ 6- 1-2012 17:48:28:785]- LOG(2550): =MSI=>ACTIONDATA: ????: x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.42_x-ww_0de06acd.cat,  ???????: ,  ??????: 7423
+[ 6- 1-2012 17:48:28:828]- LOG(2550): =MSI=>ACTIONDATA: ????: msvcr80.dll,  ???????: ,  ??????: 626688
+[ 6- 1-2012 17:48:28:958]- LOG(2550): =MSI=>ACTIONDATA: ????: msvcp80.dll,  ???????: ,  ??????: 548864
+[ 6- 1-2012 17:48:29:036]- LOG(2550): =MSI=>ACTIONDATA: ????: msvcm80.dll,  ???????: ,  ??????: 479232
+[ 6- 1-2012 17:48:29:185]- LOG(2550): =MSI=>ACTIONDATA: ????: x86_Microsoft.VC80.MFC_1fc8b3b9a1e18e3b_8.0.50727.42_x-ww_dec6ddd2.manifest,  ???????: ,  ??????: 2370
+[ 6- 1-2012 17:48:29:223]- LOG(2550): =MSI=>ACTIONDATA: ????: x86_Microsoft.VC80.MFC_1fc8b3b9a1e18e3b_8.0.50727.42_x-ww_dec6ddd2.cat,  ???????: ,  ??????: 7423
+[ 6- 1-2012 17:48:29:263]- LOG(2550): =MSI=>ACTIONDATA: ????: mfcm80.dll,  ???????: ,  ??????: 69632
+[ 6- 1-2012 17:48:29:370]- LOG(2550): =MSI=>ACTIONDATA: ????: mfc80u.dll,  ???????: ,  ??????: 1079808
+[ 6- 1-2012 17:48:29:833]- LOG(2550): =MSI=>ACTIONDATA: ????: mfc80.dll,  ???????: ,  ??????: 1093632
+[ 6- 1-2012 17:48:30:107]- LOG(2550): =MSI=>ACTIONDATA: ????: mfcm80u.dll,  ???????: ,  ??????: 57344
+[ 6- 1-2012 17:48:30:209]- LOG(2550): =MSI=>ACTIONDATA: ????: x86_Microsoft.VC80.MFCLOC_1fc8b3b9a1e18e3b_8.0.50727.42_x-ww_3415f6d0.manifest,  ???????: ,  ??????: 1238
+[ 6- 1-2012 17:48:30:254]- LOG(2550): =MSI=>ACTIONDATA: ????: x86_Microsoft.VC80.MFCLOC_1fc8b3b9a1e18e3b_8.0.50727.42_x-ww_3415f6d0.cat,  ???????: ,  ??????: 7436
+[ 6- 1-2012 17:48:30:337]- LOG(2550): =MSI=>ACTIONDATA: ????: mfc80CHS.dll,  ???????: ,  ??????: 40960
+[ 6- 1-2012 17:48:30:389]- LOG(2550): =MSI=>ACTIONDATA: ????: mfc80CHT.dll,  ???????: ,  ??????: 45056
+[ 6- 1-2012 17:48:30:489]- LOG(2550): =MSI=>ACTIONDATA: ????: mfc80ESP.dll,  ???????: ,  ??????: 61440
+[ 6- 1-2012 17:48:30:571]- LOG(2550): =MSI=>ACTIONDATA: ????: mfc80ENU.dll,  ???????: ,  ??????: 57344
+[ 6- 1-2012 17:48:30:674]- LOG(2550): =MSI=>ACTIONDATA: ????: mfc80DEU.dll,  ???????: ,  ??????: 65536
+[ 6- 1-2012 17:48:30:738]- LOG(2550): =MSI=>ACTIONDATA: ????: mfc80FRA.dll,  ???????: ,  ??????: 61440
+[ 6- 1-2012 17:48:30:777]- LOG(2550): =MSI=>ACTIONDATA: ????: mfc80ITA.dll,  ???????: ,  ??????: 61440
+[ 6- 1-2012 17:48:30:828]- LOG(2550): =MSI=>ACTIONDATA: ????: mfc80JPN.dll,  ???????: ,  ??????: 49152
+[ 6- 1-2012 17:48:30:945]- LOG(2550): =MSI=>ACTIONDATA: ????: mfc80KOR.dll,  ???????: ,  ??????: 49152
+[ 6- 1-2012 17:48:30:987]- LOG(2550): =MSI=>ACTIONDATA: ????: x86_Microsoft.VC80.OpenMP_1fc8b3b9a1e18e3b_8.0.50727.42_x-ww_0ee63867.manifest,  ???????: ,  ??????: 467
+[ 6- 1-2012 17:48:31:033]- LOG(2550): =MSI=>ACTIONDATA: ????: x86_Microsoft.VC80.OpenMP_1fc8b3b9a1e18e3b_8.0.50727.42_x-ww_0ee63867.cat,  ???????: ,  ??????: 7436
+[ 6- 1-2012 17:48:31:117]- LOG(2550): =MSI=>ACTIONDATA: ????: vcomp.dll,  ???????: ,  ??????: 65536
+[ 6- 1-2012 17:48:31:342]- LOG(2550): =MSI=>ACTIONDATA: ????: 8.0.50727.42.policy,  ???????: ,  ??????: 712
+[ 6- 1-2012 17:48:31:407]- LOG(2550): =MSI=>ACTIONDATA: ????: 8.0.50727.42.cat,  ???????: ,  ??????: 7441
+[ 6- 1-2012 17:48:31:459]- LOG(2550): =MSI=>ACTIONDATA: ????: 8.0.50727.42.policy,  ???????: ,  ??????: 712
+[ 6- 1-2012 17:48:31:507]- LOG(2550): =MSI=>ACTIONDATA: ????: 8.0.50727.42.cat,  ???????: ,  ??????: 7441
+[ 6- 1-2012 17:48:31:605]- LOG(2550): =MSI=>ACTIONDATA: ????: 8.0.50727.42.policy,  ???????: ,  ??????: 712
+[ 6- 1-2012 17:48:31:796]- LOG(2550): =MSI=>ACTIONDATA: ????: 8.0.50727.42.cat,  ???????: ,  ??????: 7441
+[ 6- 1-2012 17:48:31:839]- LOG(2550): =MSI=>ACTIONDATA: ????: 8.0.50727.42.policy,  ???????: ,  ??????: 718
+[ 6- 1-2012 17:48:31:873]- LOG(2550): =MSI=>ACTIONDATA: ????: 8.0.50727.42.cat,  ???????: ,  ??????: 7447
+[ 6- 1-2012 17:48:31:917]- LOG(2550): =MSI=>ACTIONDATA: ????: 8.0.50727.42.policy,  ???????: ,  ??????: 718
+[ 6- 1-2012 17:48:31:960]- LOG(2550): =MSI=>ACTIONDATA: ????: 8.0.50727.42.cat,  ???????: ,  ??????: 7447
+[ 6- 1-2012 17:48:31:995]- LOG(2550): =MSI=>ACTIONDATA: ????: msdia80.dll,  ???????: C:\Program Files (x86)\Common Files\Microsoft Shared\VC\,  ??????: 621056
+[ 6- 1-2012 17:48:32:213]- LOG(2550): -----iField0=1, iField1=13200, iField2=1, iField3=0
+[ 6- 1-2012 17:48:32:216]- LOG(2550): =MSI=>ACTIONDATA: ??????: \SOFTWARE\Microsoft\DevDiv\VC\Servicing\8.0\RED\1033, ???: Install, ????????: #1
+[ 6- 1-2012 17:48:32:222]- LOG(2550): =MSI=>ACTIONDATA: ??????: \SOFTWARE\Microsoft\DevDiv\VC\Servicing\8.0\RED\1033, ???: InstallerType, ????????: MSI
+[ 6- 1-2012 17:48:32:226]- LOG(2550): =MSI=>ACTIONDATA: ??????: \SOFTWARE\Microsoft\DevDiv\VC\Servicing\8.0\RED\1033, ???: SP, ????????: #0
+[ 6- 1-2012 17:48:32:230]- LOG(2550): =MSI=>ACTIONDATA: ??????: \SOFTWARE\Microsoft\DevDiv\VC\Servicing\8.0\RED\1033, ???: SPIndex, ????????: #0
+[ 6- 1-2012 17:48:32:235]- LOG(2550): =MSI=>ACTIONDATA: ??????: \SOFTWARE\Microsoft\DevDiv\VC\Servicing\8.0\RED\1033, ???: SPName, ????????: RTM
+[ 6- 1-2012 17:48:32:239]- LOG(2550): =MSI=>ACTIONDATA: ??????: \SOFTWARE\Microsoft\DevDiv\VC\Servicing\8.0, ???: SP, ????????: #0
+[ 6- 1-2012 17:48:32:243]- LOG(2550): =MSI=>ACTIONDATA: ??????: \SOFTWARE\Microsoft\DevDiv\VC\Servicing\8.0, ???: SPIndex, ????????: #0
+[ 6- 1-2012 17:48:32:258]- LOG(2550): =MSI=>ACTIONDATA: ??????: \Software\Microsoft\Windows\CurrentVersion\SideBySide\PatchedComponents, ???: {97F81AF1-0E47-DC99-A01F-C8B3B9A1E18E}, ????????: C:\Windows\winsxs\x86_microsoft.vc80.atl_1fc8b3b9a1e18e3b_8.0.50727.42_none_dc990e4797f81af1\\ATL80.dll
+[ 6- 1-2012 17:48:32:266]- LOG(2550): =MSI=>ACTIONDATA: ??????: \Software\Microsoft\Windows\CurrentVersion\SideBySide\PatchedComponents, ???: {98CB24AD-52FB-DB5F-A01F-C8B3B9A1E18E}, ????????: C:\Windows\winsxs\x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.42_none_db5f52fb98cb24ad\\msvcr80.dll
+[ 6- 1-2012 17:48:32:272]- LOG(2550): =MSI=>ACTIONDATA: ??????: \Software\Microsoft\Windows\CurrentVersion\SideBySide\PatchedComponents, ???: {9BAE13A2-E7AF-D6C3-A01F-C8B3B9A1E18E}, ????????: C:\Windows\winsxs\x86_microsoft.vc80.mfc_1fc8b3b9a1e18e3b_8.0.50727.42_none_d6c3e7af9bae13a2\\mfcm80.dll
+[ 6- 1-2012 17:48:32:275]- LOG(2550): =MSI=>ACTIONDATA: ??????: \Software\Microsoft\Windows\CurrentVersion\SideBySide\PatchedComponents, ???: {74FD3CE6-2A8D-0E9C-A01F-C8B3B9A1E18E}, ????????: C:\Windows\winsxs\x86_microsoft.vc80.mfcloc_1fc8b3b9a1e18e3b_8.0.50727.42_none_0e9c2a8d74fd3ce6\\mfc80CHS.dll
+[ 6- 1-2012 17:48:32:280]- LOG(2550): =MSI=>ACTIONDATA: ??????: \Software\Microsoft\Windows\CurrentVersion\SideBySide\PatchedComponents, ???: {1E507087-0819-45E0-A01F-C8B3B9A1E18E}, ????????: C:\Windows\winsxs\x86_microsoft.vc80.openmp_1fc8b3b9a1e18e3b_8.0.50727.42_none_45e008191e507087\\vcomp.dll
+[ 6- 1-2012 17:48:32:284]- LOG(2550): =MSI=>ACTIONDATA: ??????: \Software\Microsoft\Windows\CurrentVersion\SideBySide\PatchedComponents, ???: {66332652-9C28-58B1-A01F-C8B3B9A1E18E}, ????????: C:\Windows\winsxs\x86_policy.8.0.microsoft.vc80.atl_1fc8b3b9a1e18e3b_8.0.50727.42_none_58b19c2866332652\\8.0.50727.42.policy
+[ 6- 1-2012 17:48:32:290]- LOG(2550): =MSI=>ACTIONDATA: ??????: \Software\Microsoft\Windows\CurrentVersion\SideBySide\PatchedComponents, ???: {63E949F6-03BC-5C40-A01F-C8B3B9A1E18E}, ????????: C:\Windows\winsxs\x86_policy.8.0.microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.42_none_5c4003bc63e949f6\\8.0.50727.42.policy
+[ 6- 1-2012 17:48:32:294]- LOG(2550): =MSI=>ACTIONDATA: ??????: \Software\Microsoft\Windows\CurrentVersion\SideBySide\PatchedComponents, ???: {68B7C6D9-1DF2-54C1-A01F-C8B3B9A1E18E}, ????????: C:\Windows\winsxs\x86_policy.8.0.microsoft.vc80.mfc_1fc8b3b9a1e18e3b_8.0.50727.42_none_54c11df268b7c6d9\\8.0.50727.42.policy
+[ 6- 1-2012 17:48:32:299]- LOG(2550): =MSI=>ACTIONDATA: ??????: \Software\Microsoft\Windows\CurrentVersion\SideBySide\PatchedComponents, ???: {D2730D3F-3C41-5884-A01F-C8B3B9A1E18E}, ????????: C:\Windows\winsxs\x86_policy.8.0.microsoft.vc80.mfcloc_1fc8b3b9a1e18e3b_8.0.50727.42_none_58843c41d2730d3f\\8.0.50727.42.policy
+[ 6- 1-2012 17:48:32:303]- LOG(2550): =MSI=>ACTIONDATA: ??????: \Software\Microsoft\Windows\CurrentVersion\SideBySide\PatchedComponents, ???: {04B9F3B6-9645-7658-A01F-C8B3B9A1E18E}, ????????: C:\Windows\winsxs\x86_policy.8.0.microsoft.vc80.openmp_1fc8b3b9a1e18e3b_8.0.50727.42_none_7658964504b9f3b6\\8.0.50727.42.policy
+[ 6- 1-2012 17:48:32:321]- LOG(2550): =MSI=>ACTIONDATA: {A49F249F-0C91-497F-86DF-B2585E8E76B7}
+[ 6- 1-2012 17:48:32:367]- LOG(2550): =MSI=>ACTIONDATA: ???????? ??????????:Global, ??? ??????:Microsoft.VC80.ATL,type="win32",version="8.0.50727.42",publicKeyToken="1fc8b3b9a1e18e3b",processorArchitecture="x86"
+[ 6- 1-2012 17:48:32:371]- LOG(2550): =MSI=>ACTIONDATA: ???????? ??????????:Global, ??? ??????:Microsoft.VC80.CRT,type="win32",version="8.0.50727.42",publicKeyToken="1fc8b3b9a1e18e3b",processorArchitecture="x86"
+[ 6- 1-2012 17:48:32:375]- LOG(2550): =MSI=>ACTIONDATA: ???????? ??????????:Global, ??? ??????:Microsoft.VC80.MFC,type="win32",version="8.0.50727.42",publicKeyToken="1fc8b3b9a1e18e3b",processorArchitecture="x86"
+[ 6- 1-2012 17:48:32:378]- LOG(2550): =MSI=>ACTIONDATA: ???????? ??????????:Global, ??? ??????:Microsoft.VC80.MFCLOC,type="win32",version="8.0.50727.42",publicKeyToken="1fc8b3b9a1e18e3b",processorArchitecture="x86"
+[ 6- 1-2012 17:48:32:382]- LOG(2550): =MSI=>ACTIONDATA: ???????? ??????????:Global, ??? ??????:Microsoft.VC80.OpenMP,type="win32",version="8.0.50727.42",publicKeyToken="1fc8b3b9a1e18e3b",processorArchitecture="x86"
+[ 6- 1-2012 17:48:32:386]- LOG(2550): =MSI=>ACTIONDATA: ???????? ??????????:Global, ??? ??????:policy.8.0.Microsoft.VC80.ATL,type="win32-policy",version="8.0.50727.42",publicKeyToken="1fc8b3b9a1e18e3b",processorArchitecture="x86"
+[ 6- 1-2012 17:48:32:389]- LOG(2550): =MSI=>ACTIONDATA: ???????? ??????????:Global, ??? ??????:policy.8.0.Microsoft.VC80.CRT,type="win32-policy",version="8.0.50727.42",publicKeyToken="1fc8b3b9a1e18e3b",processorArchitecture="x86"
+[ 6- 1-2012 17:48:32:398]- LOG(2550): =MSI=>ACTIONDATA: ???????? ??????????:Global, ??? ??????:policy.8.0.Microsoft.VC80.MFC,type="win32-policy",version="8.0.50727.42",publicKeyToken="1fc8b3b9a1e18e3b",processorArchitecture="x86"
+[ 6- 1-2012 17:48:32:403]- LOG(2550): =MSI=>ACTIONDATA: ???????? ??????????:Global, ??? ??????:policy.8.0.Microsoft.VC80.MFCLOC,type="win32-policy",version="8.0.50727.42",publicKeyToken="1fc8b3b9a1e18e3b",processorArchitecture="x86"
+[ 6- 1-2012 17:48:32:407]- LOG(2550): =MSI=>ACTIONDATA: ???????? ??????????:Global, ??? ??????:policy.8.0.Microsoft.VC80.OpenMP,type="win32-policy",version="8.0.50727.42",publicKeyToken="1fc8b3b9a1e18e3b",processorArchitecture="x86"
+[ 6- 1-2012 17:48:32:415]- LOG(2550): =MSI=>ACTIONDATA: ?????????: VC_Redist
+[ 6- 1-2012 17:48:32:423]- LOG(2550): =MSI=>ACTIONDATA: ?????????: Servicing_Key
+[ 6- 1-2012 17:48:50:715]- LOG(2550): -----iField0=0, iField1=0, iField2=0, iField3=0
+[ 6- 1-2012 17:48:50:824]- LOG(2550):   +++ Succesfully installed C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\vcredist\rtm\vcredist.msi
+[ 6- 1-2012 17:48:50:826]- LOG(2550): ==================== INSTALL MSI ========================
+[ 6- 1-2012 17:48:50:827]- LOG(2550): CMsi::Install(C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\vcredist\sp1\vcredist.msi, )
+[ 6- 1-2012 17:48:50:828]- LOG(2550): CMsi::_Install(C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\vcredist\sp1\vcredist.msi,  REBOOT=ReallySuppress  ADDCLID=1049 )
+[ 6- 1-2012 17:48:50:873]- LOG(2550):   Msi ProductCode = {7299052b-02a4-4627-81f2-1818da5d550d}
+[ 6- 1-2012 17:48:50:875]- LOG(2550):   Msi UpgradeCode = {86C9D5AA-F00C-4921-B3F2-C60AF92E2844}
+[ 6- 1-2012 17:48:50:877]- LOG(2550):   Msi ProductVersion = 8.0.56336
+[ 6- 1-2012 17:48:51:014]- LOG(2550): =MSI=>ACTIONDATA: ????????: REDISTFOUNDVERLANG, ???????: DetectRedistVerLangSignature
+[ 6- 1-2012 17:48:51:016]- LOG(2550): =MSI=>ACTIONDATA: ????????: REDISTFOUNDVER, ???????: DetectRedistVerSignature
+[ 6- 1-2012 17:48:51:018]- LOG(2550): =MSI=>ACTIONDATA: ????????: OCMFOUNDVERLANG, ???????: DetectOCMRedistVerLangSignature
+[ 6- 1-2012 17:48:51:019]- LOG(2550): =MSI=>ACTIONDATA: ????????: OCMFOUNDVER, ???????: DetectOCMRedistVerSignature
+[ 6- 1-2012 17:48:51:021]- LOG(2550): =MSI=>ACTIONDATA: ????????: JSHFOUNDVER, ???????: DetectJSHVerSignature
+[ 6- 1-2012 17:48:51:066]- LOG(2550): -----iField0=0, iField1=13438, iField2=0, iField3=1
+[ 6- 1-2012 17:48:51:112]- LOG(2550): =MSI=>ACTIONDATA: ??????? ??????????: {A49F249F-0C91-497F-86DF-B2585E8E76B7}
+[ 6- 1-2012 17:48:51:116]- LOG(2550): =MSI=>ACTIONDATA: ??????????: 0, ????????? ??????: UPGRADINGPRODUCTCODE={7299052b-02a4-4627-81f2-1818da5d550d}  CLIENTUILEVEL=3 REMOVE=ALL
+[ 6- 1-2012 17:48:51:119]- LOG(2550): =MSI=>ACTIONDATA: ??????????: {A49F249F-0C91-497F-86DF-B2585E8E76B7}, ????????? ??????: UPGRADINGPRODUCTCODE={7299052b-02a4-4627-81f2-1818da5d550d}  CLIENTUILEVEL=3 REMOVE=ALL
+[ 6- 1-2012 17:48:51:342]- LOG(2550): =MSI=>ACTIONDATA: ????????: REDISTFOUNDVERLANG, ???????: DetectRedistVerLangSignature
+[ 6- 1-2012 17:48:51:344]- LOG(2550): =MSI=>ACTIONDATA: ????????: REDISTFOUNDVER, ???????: DetectRedistVerSignature
+[ 6- 1-2012 17:48:51:346]- LOG(2550): =MSI=>ACTIONDATA: ????????: OCMFOUNDVERLANG, ???????: DetectOCMRedistVerLangSignature
+[ 6- 1-2012 17:48:51:348]- LOG(2550): =MSI=>ACTIONDATA: ????????: OCMFOUNDVER, ???????: DetectOCMRedistVerSignature
+[ 6- 1-2012 17:48:51:350]- LOG(2550): =MSI=>ACTIONDATA: ????????: JSHFOUNDVER, ???????: DetectJSHVerSignature
+[ 6- 1-2012 17:48:51:633]- LOG(2550): -----iField0=0, iField1=2098, iField2=0, iField3=1
+[ 6- 1-2012 17:48:52:916]- LOG(2550): =MSI=>ACTIONDATA: InstallInitialize
+[ 6- 1-2012 17:48:52:947]- LOG(2550): =MSI=>ACTIONDATA: 
+[ 6- 1-2012 17:48:52:960]- LOG(2550): =MSI=>ACTIONDATA: ???????? ??????????:?????? ?????????? ???????? ? ??????, ??? ??????:
+[ 6- 1-2012 17:48:52:965]- LOG(2550): =MSI=>ACTIONDATA: ?????????: ?????? ?????????? ??????????? ????????
+[ 6- 1-2012 17:48:52:970]- LOG(2550): =MSI=>ACTIONDATA: 
+[ 6- 1-2012 17:48:52:973]- LOG(2550): =MSI=>ACTIONDATA: ??????: ???????? ???????? ?????????? ???????, ???: 
+[ 6- 1-2012 17:48:52:982]- LOG(2550): =MSI=>ACTIONDATA: ????: ???????? ??????, ???????: 
+[ 6- 1-2012 17:48:52:995]- LOG(2550): =MSI=>ACTIONDATA: ????: ??????????? ????? ??????,  ???????: ,  ??????: 
+[ 6- 1-2012 17:48:53:009]- LOG(2550): =MSI=>ACTIONDATA: 
+[ 6- 1-2012 17:48:53:049]- LOG(2550): -----iField0=0, iField1=7733400, iField2=0, iField3=0
+[ 6- 1-2012 17:48:53:059]- LOG(2550): -----iField0=1, iField1=24000, iField2=1, iField3=0
+[ 6- 1-2012 17:48:53:074]- LOG(2550): =MSI=>ACTIONDATA: ???????? ??????????:Global, ??? ??????:Microsoft.VC80.ATL,type="win32",version="8.0.50727.42",publicKeyToken="1fc8b3b9a1e18e3b",processorArchitecture="x86"
+[ 6- 1-2012 17:48:53:077]- LOG(2550): =MSI=>ACTIONDATA: ???????? ??????????:Global, ??? ??????:Microsoft.VC80.CRT,type="win32",version="8.0.50727.42",publicKeyToken="1fc8b3b9a1e18e3b",processorArchitecture="x86"
+[ 6- 1-2012 17:48:53:081]- LOG(2550): =MSI=>ACTIONDATA: ???????? ??????????:Global, ??? ??????:Microsoft.VC80.MFC,type="win32",version="8.0.50727.42",publicKeyToken="1fc8b3b9a1e18e3b",processorArchitecture="x86"
+[ 6- 1-2012 17:48:53:084]- LOG(2550): =MSI=>ACTIONDATA: ???????? ??????????:Global, ??? ??????:Microsoft.VC80.MFCLOC,type="win32",version="8.0.50727.42",publicKeyToken="1fc8b3b9a1e18e3b",processorArchitecture="x86"
+[ 6- 1-2012 17:48:53:086]- LOG(2550): =MSI=>ACTIONDATA: ???????? ??????????:Global, ??? ??????:Microsoft.VC80.OpenMP,type="win32",version="8.0.50727.42",publicKeyToken="1fc8b3b9a1e18e3b",processorArchitecture="x86"
+[ 6- 1-2012 17:48:53:088]- LOG(2550): =MSI=>ACTIONDATA: ???????? ??????????:Global, ??? ??????:policy.8.0.Microsoft.VC80.ATL,type="win32-policy",version="8.0.50727.42",publicKeyToken="1fc8b3b9a1e18e3b",processorArchitecture="x86"
+[ 6- 1-2012 17:48:53:092]- LOG(2550): =MSI=>ACTIONDATA: ???????? ??????????:Global, ??? ??????:policy.8.0.Microsoft.VC80.CRT,type="win32-policy",version="8.0.50727.42",publicKeyToken="1fc8b3b9a1e18e3b",processorArchitecture="x86"
+[ 6- 1-2012 17:48:53:094]- LOG(2550): =MSI=>ACTIONDATA: ???????? ??????????:Global, ??? ??????:policy.8.0.Microsoft.VC80.MFC,type="win32-policy",version="8.0.50727.42",publicKeyToken="1fc8b3b9a1e18e3b",processorArchitecture="x86"
+[ 6- 1-2012 17:48:53:096]- LOG(2550): =MSI=>ACTIONDATA: ???????? ??????????:Global, ??? ??????:policy.8.0.Microsoft.VC80.MFCLOC,type="win32-policy",version="8.0.50727.42",publicKeyToken="1fc8b3b9a1e18e3b",processorArchitecture="x86"
+[ 6- 1-2012 17:48:53:099]- LOG(2550): =MSI=>ACTIONDATA: ???????? ??????????:Global, ??? ??????:policy.8.0.Microsoft.VC80.OpenMP,type="win32-policy",version="8.0.50727.42",publicKeyToken="1fc8b3b9a1e18e3b",processorArchitecture="x86"
+[ 6- 1-2012 17:48:53:101]- LOG(2550): =MSI=>ACTIONDATA: ?????????: VC_Redist
+[ 6- 1-2012 17:48:53:104]- LOG(2550): =MSI=>ACTIONDATA: ?????????: Servicing_Key
+[ 6- 1-2012 17:48:53:106]- LOG(2550): -----iField0=1, iField1=13200, iField2=1, iField3=0
+[ 6- 1-2012 17:48:53:107]- LOG(2550): =MSI=>ACTIONDATA: ??????: \SOFTWARE\Microsoft\DevDiv\VC\Servicing\8.0\RED\1033, ???: Install
+[ 6- 1-2012 17:48:53:109]- LOG(2550): =MSI=>ACTIONDATA: ??????: \SOFTWARE\Microsoft\DevDiv\VC\Servicing\8.0\RED\1033, ???: InstallerType
+[ 6- 1-2012 17:48:53:111]- LOG(2550): =MSI=>ACTIONDATA: ??????: \SOFTWARE\Microsoft\DevDiv\VC\Servicing\8.0\RED\1033, ???: SP
+[ 6- 1-2012 17:48:53:113]- LOG(2550): =MSI=>ACTIONDATA: ??????: \SOFTWARE\Microsoft\DevDiv\VC\Servicing\8.0\RED\1033, ???: SPIndex
+[ 6- 1-2012 17:48:53:115]- LOG(2550): =MSI=>ACTIONDATA: ??????: \SOFTWARE\Microsoft\DevDiv\VC\Servicing\8.0\RED\1033, ???: SPName
+[ 6- 1-2012 17:48:53:116]- LOG(2550): =MSI=>ACTIONDATA: ??????: \SOFTWARE\Microsoft\DevDiv\VC\Servicing\8.0, ???: SP
+[ 6- 1-2012 17:48:53:119]- LOG(2550): =MSI=>ACTIONDATA: ??????: \SOFTWARE\Microsoft\DevDiv\VC\Servicing\8.0, ???: SPIndex
+[ 6- 1-2012 17:48:53:122]- LOG(2550): -----iField0=1, iField1=175000, iField2=1, iField3=0
+[ 6- 1-2012 17:48:53:125]- LOG(2550): =MSI=>ACTIONDATA: ????: ATL80.dll, ???????: 
+[ 6- 1-2012 17:48:53:127]- LOG(2550): =MSI=>ACTIONDATA: ????: x86_Microsoft.VC80.ATL_1fc8b3b9a1e18e3b_8.0.50727.42_x-ww_6e805841.manifest, ???????: 
+[ 6- 1-2012 17:48:53:128]- LOG(2550): =MSI=>ACTIONDATA: ????: x86_Microsoft.VC80.ATL_1fc8b3b9a1e18e3b_8.0.50727.42_x-ww_6e805841.cat, ???????: 
+[ 6- 1-2012 17:48:53:130]- LOG(2550): =MSI=>ACTIONDATA: ????: msvcr80.dll, ???????: 
+[ 6- 1-2012 17:48:53:132]- LOG(2550): =MSI=>ACTIONDATA: ????: x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.42_x-ww_0de06acd.manifest, ???????: 
+[ 6- 1-2012 17:48:53:134]- LOG(2550): =MSI=>ACTIONDATA: ????: x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.42_x-ww_0de06acd.cat, ???????: 
+[ 6- 1-2012 17:48:53:135]- LOG(2550): =MSI=>ACTIONDATA: ????: msvcp80.dll, ???????: 
+[ 6- 1-2012 17:48:53:138]- LOG(2550): =MSI=>ACTIONDATA: ????: msvcm80.dll, ???????: 
+[ 6- 1-2012 17:48:53:140]- LOG(2550): =MSI=>ACTIONDATA: ????: mfcm80.dll, ???????: 
+[ 6- 1-2012 17:48:53:143]- LOG(2550): =MSI=>ACTIONDATA: ????: x86_Microsoft.VC80.MFC_1fc8b3b9a1e18e3b_8.0.50727.42_x-ww_dec6ddd2.manifest, ???????: 
+[ 6- 1-2012 17:48:53:146]- LOG(2550): =MSI=>ACTIONDATA: ????: x86_Microsoft.VC80.MFC_1fc8b3b9a1e18e3b_8.0.50727.42_x-ww_dec6ddd2.cat, ???????: 
+[ 6- 1-2012 17:48:53:147]- LOG(2550): =MSI=>ACTIONDATA: ????: mfc80u.dll, ???????: 
+[ 6- 1-2012 17:48:53:149]- LOG(2550): =MSI=>ACTIONDATA: ????: mfc80.dll, ???????: 
+[ 6- 1-2012 17:48:53:151]- LOG(2550): =MSI=>ACTIONDATA: ????: mfcm80u.dll, ???????: 
+[ 6- 1-2012 17:48:53:152]- LOG(2550): =MSI=>ACTIONDATA: ????: mfc80CHS.dll, ???????: 
+[ 6- 1-2012 17:48:53:154]- LOG(2550): =MSI=>ACTIONDATA: ????: x86_Microsoft.VC80.MFCLOC_1fc8b3b9a1e18e3b_8.0.50727.42_x-ww_3415f6d0.manifest, ???????: 
+[ 6- 1-2012 17:48:53:156]- LOG(2550): =MSI=>ACTIONDATA: ????: x86_Microsoft.VC80.MFCLOC_1fc8b3b9a1e18e3b_8.0.50727.42_x-ww_3415f6d0.cat, ???????: 
+[ 6- 1-2012 17:48:53:158]- LOG(2550): =MSI=>ACTIONDATA: ????: mfc80CHT.dll, ???????: 
+[ 6- 1-2012 17:48:53:160]- LOG(2550): =MSI=>ACTIONDATA: ????: mfc80ESP.dll, ???????: 
+[ 6- 1-2012 17:48:53:162]- LOG(2550): =MSI=>ACTIONDATA: ????: mfc80ENU.dll, ???????: 
+[ 6- 1-2012 17:48:53:163]- LOG(2550): =MSI=>ACTIONDATA: ????: mfc80DEU.dll, ???????: 
+[ 6- 1-2012 17:48:53:165]- LOG(2550): =MSI=>ACTIONDATA: ????: mfc80FRA.dll, ???????: 
+[ 6- 1-2012 17:48:53:166]- LOG(2550): =MSI=>ACTIONDATA: ????: mfc80ITA.dll, ???????: 
+[ 6- 1-2012 17:48:53:168]- LOG(2550): =MSI=>ACTIONDATA: ????: mfc80JPN.dll, ???????: 
+[ 6- 1-2012 17:48:53:171]- LOG(2550): =MSI=>ACTIONDATA: ????: mfc80KOR.dll, ???????: 
+[ 6- 1-2012 17:48:53:173]- LOG(2550): =MSI=>ACTIONDATA: ????: vcomp.dll, ???????: 
+[ 6- 1-2012 17:48:53:175]- LOG(2550): =MSI=>ACTIONDATA: ????: x86_Microsoft.VC80.OpenMP_1fc8b3b9a1e18e3b_8.0.50727.42_x-ww_0ee63867.manifest, ???????: 
+[ 6- 1-2012 17:48:53:177]- LOG(2550): =MSI=>ACTIONDATA: ????: x86_Microsoft.VC80.OpenMP_1fc8b3b9a1e18e3b_8.0.50727.42_x-ww_0ee63867.cat, ???????: 
+[ 6- 1-2012 17:48:53:179]- LOG(2550): =MSI=>ACTIONDATA: ????: 8.0.50727.42.policy, ???????: 
+[ 6- 1-2012 17:48:53:181]- LOG(2550): =MSI=>ACTIONDATA: ????: 8.0.50727.42.cat, ???????: 
+[ 6- 1-2012 17:48:53:182]- LOG(2550): =MSI=>ACTIONDATA: ????: 8.0.50727.42.policy, ???????: 
+[ 6- 1-2012 17:48:53:184]- LOG(2550): =MSI=>ACTIONDATA: ????: 8.0.50727.42.cat, ???????: 
+[ 6- 1-2012 17:48:53:185]- LOG(2550): =MSI=>ACTIONDATA: ????: 8.0.50727.42.policy, ???????: 
+[ 6- 1-2012 17:48:53:187]- LOG(2550): =MSI=>ACTIONDATA: ????: 8.0.50727.42.cat, ???????: 
+[ 6- 1-2012 17:48:53:188]- LOG(2550): =MSI=>ACTIONDATA: ????: 8.0.50727.42.policy, ???????: 
+[ 6- 1-2012 17:48:53:190]- LOG(2550): =MSI=>ACTIONDATA: ????: 8.0.50727.42.cat, ???????: 
+[ 6- 1-2012 17:48:53:192]- LOG(2550): =MSI=>ACTIONDATA: ????: 8.0.50727.42.policy, ???????: 
+[ 6- 1-2012 17:48:53:193]- LOG(2550): =MSI=>ACTIONDATA: ????: 8.0.50727.42.cat, ???????: 
+[ 6- 1-2012 17:48:53:195]- LOG(2550): =MSI=>ACTIONDATA: ????: msdia80.dll, ???????: C:\Program Files (x86)\Common Files\Microsoft Shared\VC\
+[ 6- 1-2012 17:48:59:439]- LOG(2550): -----iField0=0, iField1=6, iField2=0, iField3=0
+[ 6- 1-2012 17:48:59:440]- LOG(2550): =MSI=>ACTIONDATA: ????: C:\Config.Msi\2bdfcca.rbf
+[ 6- 1-2012 17:48:59:443]- LOG(2550): =MSI=>ACTIONDATA: ????: C:\Config.Msi\2bdfccb.rbf
+[ 6- 1-2012 17:48:59:446]- LOG(2550): =MSI=>ACTIONDATA: ????: C:\Config.Msi\2bdfccc.rbf
+[ 6- 1-2012 17:48:59:448]- LOG(2550): =MSI=>ACTIONDATA: ????: C:\Config.Msi\2bdfccd.rbf
+[ 6- 1-2012 17:48:59:451]- LOG(2550): =MSI=>ACTIONDATA: ????: C:\Config.Msi\2bdfcce.rbf
+[ 6- 1-2012 17:48:59:458]- LOG(2550): =MSI=>ACTIONDATA: ????: C:\Config.Msi\2bdfccf.rbf
+[ 6- 1-2012 17:49:01:125]- LOG(2550): =MSI=>ACTIONDATA: ?????????? ??????????? ???????????
+[ 6- 1-2012 17:49:01:163]- LOG(2550): =MSI=>ACTIONDATA: 
+[ 6- 1-2012 17:49:01:186]- LOG(2550): =MSI=>ACTIONDATA: ????: ??????????? ????? ??????,  ???????: ,  ??????: 
+[ 6- 1-2012 17:49:01:325]- LOG(2550): =MSI=>ACTIONDATA: ??????: ?????? ???????? ?????????? ???????, ???: , ????????: 
+[ 6- 1-2012 17:49:01:334]- LOG(2550): =MSI=>ACTIONDATA: ??????????? ????????
+[ 6- 1-2012 17:49:01:341]- LOG(2550): =MSI=>ACTIONDATA: ???????? ??????????:?????????? ???????? ? ??????, ??? ??????:
+[ 6- 1-2012 17:49:01:373]- LOG(2550): =MSI=>ACTIONDATA: ?????????: ?????????? ??????????? ????????
+[ 6- 1-2012 17:49:01:376]- LOG(2550): =MSI=>ACTIONDATA: 
+[ 6- 1-2012 17:49:01:389]- LOG(2550): -----iField0=0, iField1=12547497, iField2=0, iField3=0
+[ 6- 1-2012 17:49:01:391]- LOG(2550): -----iField0=1, iField1=24000, iField2=1, iField3=0
+[ 6- 1-2012 17:49:01:611]- LOG(2550): -----iField0=1, iField1=1, iField2=0, iField3=0
+[ 6- 1-2012 17:49:01:614]- LOG(2550): =MSI=>ACTIONDATA: ????: x86_Microsoft.VC80.ATL_1fc8b3b9a1e18e3b_8.0.50727.762_x-ww_cbb27474.manifest,  ???????: ,  ??????: 465
+[ 6- 1-2012 17:49:01:866]- LOG(2550): =MSI=>ACTIONDATA: ????: x86_Microsoft.VC80.ATL_1fc8b3b9a1e18e3b_8.0.50727.762_x-ww_cbb27474.cat,  ???????: ,  ??????: 8335
+[ 6- 1-2012 17:49:01:934]- LOG(2550): =MSI=>ACTIONDATA: ????: ATL80.dll,  ???????: ,  ??????: 96256
+[ 6- 1-2012 17:49:02:106]- LOG(2550): =MSI=>ACTIONDATA: ????: x86_Microsoft.VC80.MFC_1fc8b3b9a1e18e3b_8.0.50727.762_x-ww_3bf8fa05.manifest,  ???????: ,  ??????: 2371
+[ 6- 1-2012 17:49:02:157]- LOG(2550): =MSI=>ACTIONDATA: ????: x86_Microsoft.VC80.MFC_1fc8b3b9a1e18e3b_8.0.50727.762_x-ww_3bf8fa05.cat,  ???????: ,  ??????: 8335
+[ 6- 1-2012 17:49:02:226]- LOG(2550): =MSI=>ACTIONDATA: ????: mfcm80.dll,  ???????: ,  ??????: 69632
+[ 6- 1-2012 17:49:02:365]- LOG(2550): =MSI=>ACTIONDATA: ????: mfc80u.dll,  ???????: ,  ??????: 1093120
+[ 6- 1-2012 17:49:02:635]- LOG(2550): =MSI=>ACTIONDATA: ????: mfc80.dll,  ???????: ,  ??????: 1101824
+[ 6- 1-2012 17:49:02:974]- LOG(2550): =MSI=>ACTIONDATA: ????: mfcm80u.dll,  ???????: ,  ??????: 57856
+[ 6- 1-2012 17:49:03:074]- LOG(2550): =MSI=>ACTIONDATA: ????: x86_Microsoft.VC80.MFCLOC_1fc8b3b9a1e18e3b_8.0.50727.762_x-ww_91481303.manifest,  ???????: ,  ??????: 1239
+[ 6- 1-2012 17:49:03:115]- LOG(2550): =MSI=>ACTIONDATA: ????: x86_Microsoft.VC80.MFCLOC_1fc8b3b9a1e18e3b_8.0.50727.762_x-ww_91481303.cat,  ???????: ,  ??????: 8348
+[ 6- 1-2012 17:49:03:208]- LOG(2550): =MSI=>ACTIONDATA: ????: mfc80CHS.dll,  ???????: ,  ??????: 40960
+[ 6- 1-2012 17:49:03:299]- LOG(2550): =MSI=>ACTIONDATA: ????: mfc80CHT.dll,  ???????: ,  ??????: 45056
+[ 6- 1-2012 17:49:03:389]- LOG(2550): =MSI=>ACTIONDATA: ????: mfc80ESP.dll,  ???????: ,  ??????: 61440
+[ 6- 1-2012 17:49:03:458]- LOG(2550): =MSI=>ACTIONDATA: ????: mfc80ENU.dll,  ???????: ,  ??????: 57344
+[ 6- 1-2012 17:49:03:555]- LOG(2550): =MSI=>ACTIONDATA: ????: mfc80DEU.dll,  ???????: ,  ??????: 65536
+[ 6- 1-2012 17:49:03:736]- LOG(2550): =MSI=>ACTIONDATA: ????: mfc80FRA.dll,  ???????: ,  ??????: 61440
+[ 6- 1-2012 17:49:03:839]- LOG(2550): =MSI=>ACTIONDATA: ????: mfc80ITA.dll,  ???????: ,  ??????: 61440
+[ 6- 1-2012 17:49:04:121]- LOG(2550): =MSI=>ACTIONDATA: ????: mfc80JPN.dll,  ???????: ,  ??????: 49152
+[ 6- 1-2012 17:49:04:218]- LOG(2550): =MSI=>ACTIONDATA: ????: mfc80KOR.dll,  ???????: ,  ??????: 49152
+[ 6- 1-2012 17:49:04:438]- LOG(2550): =MSI=>ACTIONDATA: ????: x86_Microsoft.VC80.OpenMP_1fc8b3b9a1e18e3b_8.0.50727.762_x-ww_6c18549a.manifest,  ???????: ,  ??????: 468
+[ 6- 1-2012 17:49:04:506]- LOG(2550): =MSI=>ACTIONDATA: ????: x86_Microsoft.VC80.OpenMP_1fc8b3b9a1e18e3b_8.0.50727.762_x-ww_6c18549a.cat,  ???????: ,  ??????: 8348
+[ 6- 1-2012 17:49:04:642]- LOG(2550): =MSI=>ACTIONDATA: ????: vcomp.dll,  ???????: ,  ??????: 65536
+[ 6- 1-2012 17:49:04:704]- LOG(2550): =MSI=>ACTIONDATA: ????: 8.0.50727.762.policy,  ???????: ,  ??????: 800
+[ 6- 1-2012 17:49:04:748]- LOG(2550): =MSI=>ACTIONDATA: ????: 8.0.50727.762.cat,  ???????: ,  ??????: 8355
+[ 6- 1-2012 17:49:04:820]- LOG(2550): =MSI=>ACTIONDATA: ????: 8.0.50727.762.policy,  ???????: ,  ??????: 800
+[ 6- 1-2012 17:49:04:873]- LOG(2550): =MSI=>ACTIONDATA: ????: 8.0.50727.762.cat,  ???????: ,  ??????: 8355
+[ 6- 1-2012 17:49:04:992]- LOG(2550): =MSI=>ACTIONDATA: ????: 8.0.50727.762.policy,  ???????: ,  ??????: 806
+[ 6- 1-2012 17:49:05:028]- LOG(2550): =MSI=>ACTIONDATA: ????: 8.0.50727.762.cat,  ???????: ,  ??????: 8361
+[ 6- 1-2012 17:49:05:123]- LOG(2550): =MSI=>ACTIONDATA: ????: 8.0.50727.762.policy,  ???????: ,  ??????: 806
+[ 6- 1-2012 17:49:05:281]- LOG(2550): =MSI=>ACTIONDATA: ????: 8.0.50727.762.cat,  ???????: ,  ??????: 8361
+[ 6- 1-2012 17:49:05:411]- LOG(2550): =MSI=>ACTIONDATA: ????: msdia80.dll,  ???????: C:\Program Files (x86)\Common Files\Microsoft Shared\VC\,  ??????: 625152
+[ 6- 1-2012 17:49:05:667]- LOG(2550): -----iField0=1, iField1=13200, iField2=1, iField3=0
+[ 6- 1-2012 17:49:05:669]- LOG(2550): =MSI=>ACTIONDATA: ??????: \SOFTWARE\Microsoft\DevDiv\VC\Servicing\8.0\RED\1033, ???: Install, ????????: #1
+[ 6- 1-2012 17:49:05:673]- LOG(2550): =MSI=>ACTIONDATA: ??????: \SOFTWARE\Microsoft\DevDiv\VC\Servicing\8.0\RED\1033, ???: InstallerType, ????????: MSI
+[ 6- 1-2012 17:49:05:675]- LOG(2550): =MSI=>ACTIONDATA: ??????: \SOFTWARE\Microsoft\DevDiv\VC\Servicing\8.0\RED\1033, ???: SP, ????????: #0
+[ 6- 1-2012 17:49:05:678]- LOG(2550): =MSI=>ACTIONDATA: ??????: \SOFTWARE\Microsoft\DevDiv\VC\Servicing\8.0\RED\1033, ???: SPIndex, ????????: #0
+[ 6- 1-2012 17:49:05:681]- LOG(2550): =MSI=>ACTIONDATA: ??????: \SOFTWARE\Microsoft\DevDiv\VC\Servicing\8.0\RED\1033, ???: SPName, ????????: RTM
+[ 6- 1-2012 17:49:05:683]- LOG(2550): =MSI=>ACTIONDATA: ??????: \SOFTWARE\Microsoft\DevDiv\VC\Servicing\8.0, ???: SP, ????????: #0
+[ 6- 1-2012 17:49:05:686]- LOG(2550): =MSI=>ACTIONDATA: ??????: \SOFTWARE\Microsoft\DevDiv\VC\Servicing\8.0, ???: SPIndex, ????????: #0
+[ 6- 1-2012 17:49:05:689]- LOG(2550): =MSI=>ACTIONDATA: ??????: \Software\Microsoft\Windows\CurrentVersion\SideBySide\PatchedComponents, ???: {97F81AF1-0E47-DC99-A01F-C8B3B9A1E18E}, ????????: C:\Windows\winsxs\x86_microsoft.vc80.atl_1fc8b3b9a1e18e3b_8.0.50727.762_none_11ecb0ab9b2caf3c\\ATL80.dll
+[ 6- 1-2012 17:49:05:693]- LOG(2550): =MSI=>ACTIONDATA: ??????: \Software\Microsoft\Windows\CurrentVersion\SideBySide\PatchedComponents, ???: {9BAE13A2-E7AF-D6C3-A01F-C8B3B9A1E18E}, ????????: C:\Windows\winsxs\x86_microsoft.vc80.mfc_1fc8b3b9a1e18e3b_8.0.50727.762_none_0c178a139ee2a7ed\\x86_Microsoft.VC80.MFC_1fc8b3b9a1e18e3b_8.0.50727.762_x-ww_3bf8fa05.manifest
+[ 6- 1-2012 17:49:05:698]- LOG(2550): =MSI=>ACTIONDATA: ??????: \Software\Microsoft\Windows\CurrentVersion\SideBySide\PatchedComponents, ???: {74FD3CE6-2A8D-0E9C-A01F-C8B3B9A1E18E}, ????????: C:\Windows\winsxs\x86_microsoft.vc80.mfcloc_1fc8b3b9a1e18e3b_8.0.50727.762_none_43efccf17831d131\\mfc80CHS.dll
+[ 6- 1-2012 17:49:05:702]- LOG(2550): =MSI=>ACTIONDATA: ??????: \Software\Microsoft\Windows\CurrentVersion\SideBySide\PatchedComponents, ???: {1E507087-0819-45E0-A01F-C8B3B9A1E18E}, ????????: C:\Windows\winsxs\x86_microsoft.vc80.openmp_1fc8b3b9a1e18e3b_8.0.50727.762_none_7b33aa7d218504d2\\vcomp.dll
+[ 6- 1-2012 17:49:05:705]- LOG(2550): =MSI=>ACTIONDATA: ??????: \Software\Microsoft\Windows\CurrentVersion\SideBySide\PatchedComponents, ???: {66332652-9C28-58B1-A01F-C8B3B9A1E18E}, ????????: C:\Windows\winsxs\x86_policy.8.0.microsoft.vc80.atl_1fc8b3b9a1e18e3b_8.0.50727.762_none_8e053e8c6967ba9d\\8.0.50727.762.policy
+[ 6- 1-2012 17:49:05:708]- LOG(2550): =MSI=>ACTIONDATA: ??????: \Software\Microsoft\Windows\CurrentVersion\SideBySide\PatchedComponents, ???: {68B7C6D9-1DF2-54C1-A01F-C8B3B9A1E18E}, ????????: C:\Windows\winsxs\x86_policy.8.0.microsoft.vc80.mfc_1fc8b3b9a1e18e3b_8.0.50727.762_none_8a14c0566bec5b24\\8.0.50727.762.policy
+[ 6- 1-2012 17:49:05:712]- LOG(2550): =MSI=>ACTIONDATA: ??????: \Software\Microsoft\Windows\CurrentVersion\SideBySide\PatchedComponents, ???: {D2730D3F-3C41-5884-A01F-C8B3B9A1E18E}, ????????: C:\Windows\winsxs\x86_policy.8.0.microsoft.vc80.mfcloc_1fc8b3b9a1e18e3b_8.0.50727.762_none_8dd7dea5d5a7a18a\\8.0.50727.762.policy
+[ 6- 1-2012 17:49:05:716]- LOG(2550): =MSI=>ACTIONDATA: ??????: \Software\Microsoft\Windows\CurrentVersion\SideBySide\PatchedComponents, ???: {04B9F3B6-9645-7658-A01F-C8B3B9A1E18E}, ????????: C:\Windows\winsxs\x86_policy.8.0.microsoft.vc80.openmp_1fc8b3b9a1e18e3b_8.0.50727.762_none_abac38a907ee8801\\8.0.50727.762.policy
+[ 6- 1-2012 17:49:05:732]- LOG(2550): =MSI=>ACTIONDATA: {7299052b-02a4-4627-81f2-1818da5d550d}
+[ 6- 1-2012 17:49:05:787]- LOG(2550): =MSI=>ACTIONDATA: ???????? ??????????:Global, ??? ??????:Microsoft.VC80.ATL,type="win32",version="8.0.50727.762",publicKeyToken="1fc8b3b9a1e18e3b",processorArchitecture="x86"
+[ 6- 1-2012 17:49:05:792]- LOG(2550): =MSI=>ACTIONDATA: ???????? ??????????:Global, ??? ??????:Microsoft.VC80.CRT,type="win32",version="8.0.50727.762",publicKeyToken="1fc8b3b9a1e18e3b",processorArchitecture="x86"
+[ 6- 1-2012 17:49:05:799]- LOG(2550): =MSI=>ACTIONDATA: ???????? ??????????:Global, ??? ??????:Microsoft.VC80.MFC,type="win32",version="8.0.50727.762",publicKeyToken="1fc8b3b9a1e18e3b",processorArchitecture="x86"
+[ 6- 1-2012 17:49:05:804]- LOG(2550): =MSI=>ACTIONDATA: ???????? ??????????:Global, ??? ??????:Microsoft.VC80.MFCLOC,type="win32",version="8.0.50727.762",publicKeyToken="1fc8b3b9a1e18e3b",processorArchitecture="x86"
+[ 6- 1-2012 17:49:05:810]- LOG(2550): =MSI=>ACTIONDATA: ???????? ??????????:Global, ??? ??????:Microsoft.VC80.OpenMP,type="win32",version="8.0.50727.762",publicKeyToken="1fc8b3b9a1e18e3b",processorArchitecture="x86"
+[ 6- 1-2012 17:49:05:817]- LOG(2550): =MSI=>ACTIONDATA: ???????? ??????????:Global, ??? ??????:policy.8.0.Microsoft.VC80.ATL,type="win32-policy",version="8.0.50727.762",publicKeyToken="1fc8b3b9a1e18e3b",processorArchitecture="x86"
+[ 6- 1-2012 17:49:05:824]- LOG(2550): =MSI=>ACTIONDATA: ???????? ??????????:Global, ??? ??????:policy.8.0.Microsoft.VC80.CRT,type="win32-policy",version="8.0.50727.762",publicKeyToken="1fc8b3b9a1e18e3b",processorArchitecture="x86"
+[ 6- 1-2012 17:49:05:831]- LOG(2550): =MSI=>ACTIONDATA: ???????? ??????????:Global, ??? ??????:policy.8.0.Microsoft.VC80.MFC,type="win32-policy",version="8.0.50727.762",publicKeyToken="1fc8b3b9a1e18e3b",processorArchitecture="x86"
+[ 6- 1-2012 17:49:05:835]- LOG(2550): =MSI=>ACTIONDATA: ???????? ??????????:Global, ??? ??????:policy.8.0.Microsoft.VC80.MFCLOC,type="win32-policy",version="8.0.50727.762",publicKeyToken="1fc8b3b9a1e18e3b",processorArchitecture="x86"
+[ 6- 1-2012 17:49:05:843]- LOG(2550): =MSI=>ACTIONDATA: ???????? ??????????:Global, ??? ??????:policy.8.0.Microsoft.VC80.OpenMP,type="win32-policy",version="8.0.50727.762",publicKeyToken="1fc8b3b9a1e18e3b",processorArchitecture="x86"
+[ 6- 1-2012 17:49:05:847]- LOG(2550): =MSI=>ACTIONDATA: ?????????: VC_Redist
+[ 6- 1-2012 17:49:05:863]- LOG(2550): =MSI=>ACTIONDATA: ?????????: Servicing_Key
+[ 6- 1-2012 17:49:18:317]- LOG(2550): -----iField0=0, iField1=0, iField2=0, iField3=0
+[ 6- 1-2012 17:49:18:469]- LOG(2550):   +++ Succesfully installed C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\vcredist\sp1\vcredist.msi
+[ 6- 1-2012 17:49:18:471]- LOG(2550): InstallSequencer() step = 4
+[ 6- 1-2012 17:49:18:472]- LOG(2550): --- PreInstallStep ---
+[ 6- 1-2012 17:49:18:474]- LOG(2550): IsDriverInstalled(List)
+[ 6- 1-2012 17:49:18:475]- LOG(2550): IsDriverInstalled(HP LaserJet M1005)
+[ 6- 1-2012 17:49:18:477]- LOG(2550): FindInstalledDrivers()
+[ 6- 1-2012 17:49:18:478]- LOG(2550): PrinterDriver?  HP LaserJet M1005 ?= Remote Desktop Easy Print
+[ 6- 1-2012 17:49:18:479]- LOG(2550): PrinterDriver?  HP LaserJet M1005 ?= Microsoft XPS Document Writer
+[ 6- 1-2012 17:49:18:481]- LOG(2550): PrinterDriver?  HP LaserJet M1005 ?= Microsoft Shared Fax Driver
+[ 6- 1-2012 17:49:18:482]- LOG(2550): PrinterDriver?  HP LaserJet M1005 ?= Canon MF5700 Series
+[ 6- 1-2012 17:49:18:483]- LOG(2550): _PostProgressMessage hWnd=0x5068a msg=1125, param=17049
+[ 6- 1-2012 17:49:18:484]- LOG(2550): InstallProgramFiles()
+[ 6- 1-2012 17:49:18:485]- LOG(157C): IDLCProgressDlg::OnCurrentProgressMsg()
+[ 6- 1-2012 17:49:18:487]- LOG(2550):   programFilesDir:C:\Program Files (x86)\HP\HP LaserJet M1005 series
+[ 6- 1-2012 17:49:18:488]- LOG(2550): CopyEntireFolder(C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\,C:\Program Files (x86)\HP\HP LaserJet M1005 series)
+[ 6- 1-2012 17:49:18:490]- LOG(2550): CopyFilterFiles(*.*, C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\, C:\Program Files (x86)\HP\HP LaserJet M1005 series)
+[ 6- 1-2012 17:49:18:491]- LOG(157C):    msg=??????????? ?????? ?? ??????? ????...
+[ 6- 1-2012 17:49:18:492]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\agmcrdrv.cat to C:\Program Files (x86)\HP\HP LaserJet M1005 series\agmcrdrv.cat
+[ 6- 1-2012 17:49:18:515]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\agmcrdrv.inf to C:\Program Files (x86)\HP\HP LaserJet M1005 series\agmcrdrv.inf
+[ 6- 1-2012 17:49:18:517]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\Autorun.inf to C:\Program Files (x86)\HP\HP LaserJet M1005 series\Autorun.inf
+[ 6- 1-2012 17:49:18:519]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\DIFxAPI.dll to C:\Program Files (x86)\HP\HP LaserJet M1005 series\DIFxAPI.dll
+[ 6- 1-2012 17:49:18:567]- LOG(2550): CopyFilterFiles(*.*, C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\English, C:\Program Files (x86)\HP\HP LaserJet M1005 series\English)
+[ 6- 1-2012 17:49:18:569]- LOG(2550): CopyFilterFiles(*.*, C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\English\Driver, C:\Program Files (x86)\HP\HP LaserJet M1005 series\English\Driver)
+[ 6- 1-2012 17:49:18:577]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\English\Driver\agmcrdrv.dll to C:\Program Files (x86)\HP\HP LaserJet M1005 series\English\Driver\agmcrdrv.dll
+[ 6- 1-2012 17:49:18:600]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\English\Driver\agtwain.ds to C:\Program Files (x86)\HP\HP LaserJet M1005 series\English\Driver\agtwain.ds
+[ 6- 1-2012 17:49:18:711]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\English\Driver\HP1005C.DLL to C:\Program Files (x86)\HP\HP LaserJet M1005 series\English\Driver\HP1005C.DLL
+[ 6- 1-2012 17:49:18:756]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\English\Driver\HP1005D.chm to C:\Program Files (x86)\HP\HP LaserJet M1005 series\English\Driver\HP1005D.chm
+[ 6- 1-2012 17:49:18:791]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\English\Driver\HP1005D.DLL to C:\Program Files (x86)\HP\HP LaserJet M1005 series\English\Driver\HP1005D.DLL
+[ 6- 1-2012 17:49:18:856]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\English\Driver\HP1005J.DLL to C:\Program Files (x86)\HP\HP LaserJet M1005 series\English\Driver\HP1005J.DLL
+[ 6- 1-2012 17:49:18:900]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\English\Driver\HP1005K.DLL to C:\Program Files (x86)\HP\HP LaserJet M1005 series\English\Driver\HP1005K.DLL
+[ 6- 1-2012 17:49:18:952]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\English\Driver\HP1005L.dll to C:\Program Files (x86)\HP\HP LaserJet M1005 series\English\Driver\HP1005L.dll
+[ 6- 1-2012 17:49:18:991]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\English\Driver\HP1005LG.dll to C:\Program Files (x86)\HP\HP LaserJet M1005 series\English\Driver\HP1005LG.dll
+[ 6- 1-2012 17:49:19:030]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\English\Driver\HP1005LM.dll to C:\Program Files (x86)\HP\HP LaserJet M1005 series\English\Driver\HP1005LM.dll
+[ 6- 1-2012 17:49:19:106]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\English\Driver\HP1005M.chm to C:\Program Files (x86)\HP\HP LaserJet M1005 series\English\Driver\HP1005M.chm
+[ 6- 1-2012 17:49:19:120]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\English\Driver\HP1005MC.EXE to C:\Program Files (x86)\HP\HP LaserJet M1005 series\English\Driver\HP1005MC.EXE
+[ 6- 1-2012 17:49:19:185]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\English\Driver\HP1005MP.DLL to C:\Program Files (x86)\HP\HP LaserJet M1005 series\English\Driver\HP1005MP.DLL
+[ 6- 1-2012 17:49:19:229]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\English\Driver\HP1005MT.DLL to C:\Program Files (x86)\HP\HP LaserJet M1005 series\English\Driver\HP1005MT.DLL
+[ 6- 1-2012 17:49:19:271]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\English\Driver\HP1005P.DLL to C:\Program Files (x86)\HP\HP LaserJet M1005 series\English\Driver\HP1005P.DLL
+[ 6- 1-2012 17:49:19:366]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\English\Driver\HP1005S.DLL to C:\Program Files (x86)\HP\HP LaserJet M1005 series\English\Driver\HP1005S.DLL
+[ 6- 1-2012 17:49:19:414]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\English\Driver\HP1005SM.exe to C:\Program Files (x86)\HP\HP LaserJet M1005 series\English\Driver\HP1005SM.exe
+[ 6- 1-2012 17:49:19:450]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\English\Driver\HP1005SX.dll to C:\Program Files (x86)\HP\HP LaserJet M1005 series\English\Driver\HP1005SX.dll
+[ 6- 1-2012 17:49:19:533]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\English\Driver\HP1005U.dll to C:\Program Files (x86)\HP\HP LaserJet M1005 series\English\Driver\HP1005U.dll
+[ 6- 1-2012 17:49:19:598]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\English\Driver\HPMLVS.dll to C:\Program Files (x86)\HP\HP LaserJet M1005 series\English\Driver\HPMLVS.dll
+[ 6- 1-2012 17:49:19:640]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\English\Driver\HPMLVS60.dll to C:\Program Files (x86)\HP\HP LaserJet M1005 series\English\Driver\HPMLVS60.dll
+[ 6- 1-2012 17:49:19:683]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\English\Driver\hppscan0.dll to C:\Program Files (x86)\HP\HP LaserJet M1005 series\English\Driver\hppscan0.dll
+[ 6- 1-2012 17:49:19:694]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\English\Driver\license.txt to C:\Program Files (x86)\HP\HP LaserJet M1005 series\English\Driver\license.txt
+[ 6- 1-2012 17:49:19:718]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\English\Driver\Ltclr15u.dll to C:\Program Files (x86)\HP\HP LaserJet M1005 series\English\Driver\Ltclr15u.dll
+[ 6- 1-2012 17:49:19:761]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\English\Driver\Ltcon15u.dll to C:\Program Files (x86)\HP\HP LaserJet M1005 series\English\Driver\Ltcon15u.dll
+[ 6- 1-2012 17:49:19:806]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\English\Driver\Ltcry15u.dll to C:\Program Files (x86)\HP\HP LaserJet M1005 series\English\Driver\Ltcry15u.dll
+[ 6- 1-2012 17:49:19:839]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\English\Driver\Ltdis15u.dll to C:\Program Files (x86)\HP\HP LaserJet M1005 series\English\Driver\Ltdis15u.dll
+[ 6- 1-2012 17:49:19:858]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\English\Driver\Ltefx15u.dll to C:\Program Files (x86)\HP\HP LaserJet M1005 series\English\Driver\Ltefx15u.dll
+[ 6- 1-2012 17:49:20:086]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\English\Driver\Ltfil15u.dll to C:\Program Files (x86)\HP\HP LaserJet M1005 series\English\Driver\Ltfil15u.dll
+[ 6- 1-2012 17:49:20:125]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\English\Driver\Ltimgclr15u.dll to C:\Program Files (x86)\HP\HP LaserJet M1005 series\English\Driver\Ltimgclr15u.dll
+[ 6- 1-2012 17:49:20:156]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\English\Driver\Ltimgcor15u.dll to C:\Program Files (x86)\HP\HP LaserJet M1005 series\English\Driver\Ltimgcor15u.dll
+[ 6- 1-2012 17:49:20:200]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\English\Driver\Ltimgefx15u.dll to C:\Program Files (x86)\HP\HP LaserJet M1005 series\English\Driver\Ltimgefx15u.dll
+[ 6- 1-2012 17:49:20:233]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\English\Driver\Ltimgopt15u.dll to C:\Program Files (x86)\HP\HP LaserJet M1005 series\English\Driver\Ltimgopt15u.dll
+[ 6- 1-2012 17:49:20:283]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\English\Driver\Ltimgsfx15u.dll to C:\Program Files (x86)\HP\HP LaserJet M1005 series\English\Driver\Ltimgsfx15u.dll
+[ 6- 1-2012 17:49:20:464]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\English\Driver\Ltimgutl15u.dll to C:\Program Files (x86)\HP\HP LaserJet M1005 series\English\Driver\Ltimgutl15u.dll
+[ 6- 1-2012 17:49:20:562]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\English\Driver\Ltkrn15u.dll to C:\Program Files (x86)\HP\HP LaserJet M1005 series\English\Driver\Ltkrn15u.dll
+[ 6- 1-2012 17:49:20:687]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\English\Driver\Ltpnt15u.dll to C:\Program Files (x86)\HP\HP LaserJet M1005 series\English\Driver\Ltpnt15u.dll
+[ 6- 1-2012 17:49:20:716]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\English\Driver\Ltwvc15u.dll to C:\Program Files (x86)\HP\HP LaserJet M1005 series\English\Driver\Ltwvc15u.dll
+[ 6- 1-2012 17:49:20:800]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\English\Driver\order_supplies.htm to C:\Program Files (x86)\HP\HP LaserJet M1005 series\English\Driver\order_supplies.htm
+[ 6- 1-2012 17:49:20:813]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\English\Driver\prn32xl.avi to C:\Program Files (x86)\HP\HP LaserJet M1005 series\English\Driver\prn32xl.avi
+[ 6- 1-2012 17:49:20:836]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\English\Driver\Setup.exe to C:\Program Files (x86)\HP\HP LaserJet M1005 series\English\Driver\Setup.exe
+[ 6- 1-2012 17:49:20:865]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\English\Driver\USBMON.DLL to C:\Program Files (x86)\HP\HP LaserJet M1005 series\English\Driver\USBMON.DLL
+[ 6- 1-2012 17:49:20:889]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\English\Driver\usbscan.sys to C:\Program Files (x86)\HP\HP LaserJet M1005 series\English\Driver\usbscan.sys
+[ 6- 1-2012 17:49:20:975]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\HPLJM1005.INF to C:\Program Files (x86)\HP\HP LaserJet M1005 series\HPLJM1005.INF
+[ 6- 1-2012 17:49:20:979]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\hpm1005.cat to C:\Program Files (x86)\HP\HP LaserJet M1005 series\hpm1005.cat
+[ 6- 1-2012 17:49:21:006]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\HPM1005SU.VER to C:\Program Files (x86)\HP\HP LaserJet M1005 series\HPM1005SU.VER
+[ 6- 1-2012 17:49:21:008]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\license.txt to C:\Program Files (x86)\HP\HP LaserJet M1005 series\license.txt
+[ 6- 1-2012 17:49:21:010]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\License7z.txt to C:\Program Files (x86)\HP\HP LaserJet M1005 series\License7z.txt
+[ 6- 1-2012 17:49:21:019]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\ProductInst.exe to C:\Program Files (x86)\HP\HP LaserJet M1005 series\ProductInst.exe
+[ 6- 1-2012 17:49:21:024]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\properties.ini to C:\Program Files (x86)\HP\HP LaserJet M1005 series\properties.ini
+[ 6- 1-2012 17:49:21:027]- LOG(2550): CopyFilterFiles(*.*, C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\Russian, C:\Program Files (x86)\HP\HP LaserJet M1005 series\Russian)
+[ 6- 1-2012 17:49:21:028]- LOG(2550): CopyFilterFiles(*.*, C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\Russian\Driver, C:\Program Files (x86)\HP\HP LaserJet M1005 series\Russian\Driver)
+[ 6- 1-2012 17:49:21:041]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\Russian\Driver\agmcrdrv.dll to C:\Program Files (x86)\HP\HP LaserJet M1005 series\Russian\Driver\agmcrdrv.dll
+[ 6- 1-2012 17:49:21:068]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\Russian\Driver\agtwain.ds to C:\Program Files (x86)\HP\HP LaserJet M1005 series\Russian\Driver\agtwain.ds
+[ 6- 1-2012 17:49:21:132]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\Russian\Driver\HP1005C.DLL to C:\Program Files (x86)\HP\HP LaserJet M1005 series\Russian\Driver\HP1005C.DLL
+[ 6- 1-2012 17:49:21:192]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\Russian\Driver\HP1005D.chm to C:\Program Files (x86)\HP\HP LaserJet M1005 series\Russian\Driver\HP1005D.chm
+[ 6- 1-2012 17:49:21:209]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\Russian\Driver\HP1005D.DLL to C:\Program Files (x86)\HP\HP LaserJet M1005 series\Russian\Driver\HP1005D.DLL
+[ 6- 1-2012 17:49:21:255]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\Russian\Driver\HP1005J.DLL to C:\Program Files (x86)\HP\HP LaserJet M1005 series\Russian\Driver\HP1005J.DLL
+[ 6- 1-2012 17:49:21:282]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\Russian\Driver\HP1005K.DLL to C:\Program Files (x86)\HP\HP LaserJet M1005 series\Russian\Driver\HP1005K.DLL
+[ 6- 1-2012 17:49:21:322]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\Russian\Driver\HP1005L.dll to C:\Program Files (x86)\HP\HP LaserJet M1005 series\Russian\Driver\HP1005L.dll
+[ 6- 1-2012 17:49:21:345]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\Russian\Driver\HP1005LG.dll to C:\Program Files (x86)\HP\HP LaserJet M1005 series\Russian\Driver\HP1005LG.dll
+[ 6- 1-2012 17:49:21:361]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\Russian\Driver\HP1005LM.dll to C:\Program Files (x86)\HP\HP LaserJet M1005 series\Russian\Driver\HP1005LM.dll
+[ 6- 1-2012 17:49:21:394]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\Russian\Driver\HP1005M.chm to C:\Program Files (x86)\HP\HP LaserJet M1005 series\Russian\Driver\HP1005M.chm
+[ 6- 1-2012 17:49:21:407]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\Russian\Driver\HP1005MC.EXE to C:\Program Files (x86)\HP\HP LaserJet M1005 series\Russian\Driver\HP1005MC.EXE
+[ 6- 1-2012 17:49:21:434]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\Russian\Driver\HP1005MP.DLL to C:\Program Files (x86)\HP\HP LaserJet M1005 series\Russian\Driver\HP1005MP.DLL
+[ 6- 1-2012 17:49:21:441]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\Russian\Driver\HP1005MT.DLL to C:\Program Files (x86)\HP\HP LaserJet M1005 series\Russian\Driver\HP1005MT.DLL
+[ 6- 1-2012 17:49:21:463]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\Russian\Driver\HP1005P.DLL to C:\Program Files (x86)\HP\HP LaserJet M1005 series\Russian\Driver\HP1005P.DLL
+[ 6- 1-2012 17:49:21:500]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\Russian\Driver\HP1005S.DLL to C:\Program Files (x86)\HP\HP LaserJet M1005 series\Russian\Driver\HP1005S.DLL
+[ 6- 1-2012 17:49:21:539]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\Russian\Driver\HP1005SM.exe to C:\Program Files (x86)\HP\HP LaserJet M1005 series\Russian\Driver\HP1005SM.exe
+[ 6- 1-2012 17:49:21:615]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\Russian\Driver\HP1005SX.dll to C:\Program Files (x86)\HP\HP LaserJet M1005 series\Russian\Driver\HP1005SX.dll
+[ 6- 1-2012 17:49:21:666]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\Russian\Driver\HP1005U.dll to C:\Program Files (x86)\HP\HP LaserJet M1005 series\Russian\Driver\HP1005U.dll
+[ 6- 1-2012 17:49:21:800]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\Russian\Driver\HPMLVS.dll to C:\Program Files (x86)\HP\HP LaserJet M1005 series\Russian\Driver\HPMLVS.dll
+[ 6- 1-2012 17:49:21:830]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\Russian\Driver\HPMLVS60.dll to C:\Program Files (x86)\HP\HP LaserJet M1005 series\Russian\Driver\HPMLVS60.dll
+[ 6- 1-2012 17:49:21:874]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\Russian\Driver\hppscan0.dll to C:\Program Files (x86)\HP\HP LaserJet M1005 series\Russian\Driver\hppscan0.dll
+[ 6- 1-2012 17:49:21:899]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\Russian\Driver\license.txt to C:\Program Files (x86)\HP\HP LaserJet M1005 series\Russian\Driver\license.txt
+[ 6- 1-2012 17:49:21:911]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\Russian\Driver\Ltclr15u.dll to C:\Program Files (x86)\HP\HP LaserJet M1005 series\Russian\Driver\Ltclr15u.dll
+[ 6- 1-2012 17:49:21:960]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\Russian\Driver\Ltcon15u.dll to C:\Program Files (x86)\HP\HP LaserJet M1005 series\Russian\Driver\Ltcon15u.dll
+[ 6- 1-2012 17:49:21:992]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\Russian\Driver\Ltcry15u.dll to C:\Program Files (x86)\HP\HP LaserJet M1005 series\Russian\Driver\Ltcry15u.dll
+[ 6- 1-2012 17:49:22:054]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\Russian\Driver\Ltdis15u.dll to C:\Program Files (x86)\HP\HP LaserJet M1005 series\Russian\Driver\Ltdis15u.dll
+[ 6- 1-2012 17:49:22:086]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\Russian\Driver\Ltefx15u.dll to C:\Program Files (x86)\HP\HP LaserJet M1005 series\Russian\Driver\Ltefx15u.dll
+[ 6- 1-2012 17:49:22:117]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\Russian\Driver\Ltfil15u.dll to C:\Program Files (x86)\HP\HP LaserJet M1005 series\Russian\Driver\Ltfil15u.dll
+[ 6- 1-2012 17:49:22:160]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\Russian\Driver\Ltimgclr15u.dll to C:\Program Files (x86)\HP\HP LaserJet M1005 series\Russian\Driver\Ltimgclr15u.dll
+[ 6- 1-2012 17:49:22:237]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\Russian\Driver\Ltimgcor15u.dll to C:\Program Files (x86)\HP\HP LaserJet M1005 series\Russian\Driver\Ltimgcor15u.dll
+[ 6- 1-2012 17:49:22:278]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\Russian\Driver\Ltimgefx15u.dll to C:\Program Files (x86)\HP\HP LaserJet M1005 series\Russian\Driver\Ltimgefx15u.dll
+[ 6- 1-2012 17:49:22:345]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\Russian\Driver\Ltimgopt15u.dll to C:\Program Files (x86)\HP\HP LaserJet M1005 series\Russian\Driver\Ltimgopt15u.dll
+[ 6- 1-2012 17:49:22:425]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\Russian\Driver\Ltimgsfx15u.dll to C:\Program Files (x86)\HP\HP LaserJet M1005 series\Russian\Driver\Ltimgsfx15u.dll
+[ 6- 1-2012 17:49:22:505]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\Russian\Driver\Ltimgutl15u.dll to C:\Program Files (x86)\HP\HP LaserJet M1005 series\Russian\Driver\Ltimgutl15u.dll
+[ 6- 1-2012 17:49:22:536]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\Russian\Driver\Ltkrn15u.dll to C:\Program Files (x86)\HP\HP LaserJet M1005 series\Russian\Driver\Ltkrn15u.dll
+[ 6- 1-2012 17:49:22:822]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\Russian\Driver\Ltpnt15u.dll to C:\Program Files (x86)\HP\HP LaserJet M1005 series\Russian\Driver\Ltpnt15u.dll
+[ 6- 1-2012 17:49:22:844]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\Russian\Driver\Ltwvc15u.dll to C:\Program Files (x86)\HP\HP LaserJet M1005 series\Russian\Driver\Ltwvc15u.dll
+[ 6- 1-2012 17:49:22:893]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\Russian\Driver\order_supplies.htm to C:\Program Files (x86)\HP\HP LaserJet M1005 series\Russian\Driver\order_supplies.htm
+[ 6- 1-2012 17:49:22:910]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\Russian\Driver\prn32xl.avi to C:\Program Files (x86)\HP\HP LaserJet M1005 series\Russian\Driver\prn32xl.avi
+[ 6- 1-2012 17:49:22:929]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\Russian\Driver\Setup.exe to C:\Program Files (x86)\HP\HP LaserJet M1005 series\Russian\Driver\Setup.exe
+[ 6- 1-2012 17:49:22:958]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\Russian\Driver\USBMON.DLL to C:\Program Files (x86)\HP\HP LaserJet M1005 series\Russian\Driver\USBMON.DLL
+[ 6- 1-2012 17:49:22:980]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\Russian\Driver\usbscan.sys to C:\Program Files (x86)\HP\HP LaserJet M1005 series\Russian\Driver\usbscan.sys
+[ 6- 1-2012 17:49:23:000]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\Setup.exe to C:\Program Files (x86)\HP\HP LaserJet M1005 series\Setup.exe
+[ 6- 1-2012 17:49:23:002]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\Strings.dll to C:\Program Files (x86)\HP\HP LaserJet M1005 series\Strings.dll
+[ 6- 1-2012 17:49:23:005]- LOG(2550): CopyFilterFiles(*.*, C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\vcredist, C:\Program Files (x86)\HP\HP LaserJet M1005 series\vcredist)
+[ 6- 1-2012 17:49:23:007]- LOG(2550): CopyFilterFiles(*.*, C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\vcredist\RTM, C:\Program Files (x86)\HP\HP LaserJet M1005 series\vcredist\RTM)
+[ 6- 1-2012 17:49:23:008]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\vcredist\RTM\vcredis1.cab to C:\Program Files (x86)\HP\HP LaserJet M1005 series\vcredist\RTM\vcredis1.cab
+[ 6- 1-2012 17:49:23:010]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\vcredist\RTM\vcredist.msi to C:\Program Files (x86)\HP\HP LaserJet M1005 series\vcredist\RTM\vcredist.msi
+[ 6- 1-2012 17:49:23:044]- LOG(2550): CopyFilterFiles(*.*, C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\vcredist\SP1, C:\Program Files (x86)\HP\HP LaserJet M1005 series\vcredist\SP1)
+[ 6- 1-2012 17:49:23:046]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\vcredist\SP1\vcredis1.cab to C:\Program Files (x86)\HP\HP LaserJet M1005 series\vcredist\SP1\vcredis1.cab
+[ 6- 1-2012 17:49:23:049]- LOG(2550): Copy file C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\\vcredist\SP1\vcredist.msi to C:\Program Files (x86)\HP\HP LaserJet M1005 series\vcredist\SP1\vcredist.msi
+[ 6- 1-2012 17:49:23:054]- LOG(2550): _PostProgressMessage hWnd=0x5068a msg=1125, param=13074
+[ 6- 1-2012 17:49:23:056]- LOG(2550): Preinstalling inf C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\HPLJM1005.INF
+[ 6- 1-2012 17:49:23:058]- LOG(157C): IDLCProgressDlg::OnCurrentProgressMsg()
+[ 6- 1-2012 17:49:23:059]- LOG(157C):    msg=??????????????? ????????? ?????? ????????...
+[ 6- 1-2012 17:49:26:838]- LOG(2550): Preinstalling inf C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\agmcrdrv.inf
+[ 6- 1-2012 17:49:28:414]- LOG(2550): InstallSequencer() step = 6
+[ 6- 1-2012 17:49:28:415]- LOG(2550): --- InstallUsbStep --- PROP_PRINTER_NAME: HP LaserJet M1005 series
+[ 6- 1-2012 17:49:28:417]- LOG(2550): FindInstalledPrinters(driverList 1 elements)
+[ 6- 1-2012 17:49:28:419]- LOG(2550): == Searching installed printers for our driver names...
+[ 6- 1-2012 17:49:28:420]- LOG(2550):   Driver name: HP LaserJet M1005
+[ 6- 1-2012 17:49:28:421]- LOG(2550):   -Installed Driver name: Microsoft XPS Document Writer
+[ 6- 1-2012 17:49:28:423]- LOG(2550):   -Installed Driver name: Microsoft Shared Fax Driver
+[ 6- 1-2012 17:49:28:424]- LOG(2550):   -Installed Driver name: Canon MF5700 Series
+[ 6- 1-2012 17:49:28:425]- LOG(2550):  Found NO printers with our drivername
+[ 6- 1-2012 17:49:28:427]- LOG(2550): SetDriverPackageInfPath(C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\HPLJM1005.INF)
+[ 6- 1-2012 17:49:28:428]- LOG(2550): SetScanInfPath(C:\Users\i.shushin\Downloads\ljM1005-HB-pnp-win32-ru\agmcrdrv.inf)
+[ 6- 1-2012 17:49:28:430]- LOG(2550): SetEwsInfPath()
+[ 6- 1-2012 17:49:28:431]- LOG(2550): SetFaxInfPath()
+[ 6- 1-2012 17:49:28:432]- LOG(2550): SetFaxPrintInfPath()
+[ 6- 1-2012 17:49:28:433]- LOG(2550): _PostProgressMessage hWnd=0x5068a msg=1125, param=13071
+[ 6- 1-2012 17:49:28:434]- LOG(2550): _PostProgressMessage hWnd=0x5068a msg=1129, param=0
+[ 6- 1-2012 17:49:28:436]- LOG(157C): IDLCProgressDlg::OnCurrentProgressMsg()
+[ 6- 1-2012 17:49:28:437]- LOG(157C):    msg=???????? ??????????? ??????????.
+[ 6- 1-2012 17:49:28:438]- LOG(2550): _PostProgressMessage hWnd=0x5068a msg=1133, param=0
+[ 6- 1-2012 17:49:28:440]- LOG(157C): IDLCProgressDlg::OnStopCurrentProgress()
+[ 6- 1-2012 17:49:28:441]- LOG(157C): IDLCProgressDlg::OnResetCurrentProgress()
+[ 6- 1-2012 17:49:28:447]- LOG(2550): Inside CConnectDlg -- SetTime to Waiting for PnP...
+[ 6- 1-2012 17:49:29:150]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:49:29:151]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:49:29:153]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:49:29:844]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:49:29:846]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:49:29:847]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:49:30:555]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:49:30:556]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:49:30:558]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:49:31:248]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:49:31:250]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:49:31:251]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:49:31:960]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:49:31:962]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:49:31:963]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:49:32:653]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:49:32:654]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:49:32:656]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:49:33:359]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:49:33:360]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:49:33:362]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:49:34:057]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:49:34:058]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:49:34:060]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:49:34:770]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:49:34:771]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:49:34:773]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:49:35:463]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:49:35:464]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:49:35:466]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:49:36:170]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:49:36:171]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:49:36:173]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:49:36:866]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:49:36:868]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:49:36:869]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:49:37:579]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:49:37:580]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:49:37:582]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:49:38:274]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:49:38:275]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:49:38:277]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:49:38:982]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:49:38:983]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:49:38:985]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:49:39:673]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:49:39:675]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:49:39:676]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:49:40:387]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:49:40:388]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:49:40:390]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:49:41:088]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:49:41:089]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:49:41:090]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:49:41:784]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:49:41:785]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:49:41:787]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:49:42:481]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:49:42:483]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:49:42:487]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:49:43:182]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:49:43:184]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:49:43:185]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:49:43:896]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:49:43:897]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:49:43:899]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:49:44:590]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:49:44:591]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:49:44:593]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:49:45:288]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:49:45:289]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:49:45:291]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:49:46:001]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:49:46:002]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:49:46:004]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:49:46:692]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:49:46:694]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:49:46:695]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:49:47:401]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:49:47:402]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:49:47:403]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:49:48:097]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:49:48:099]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:49:48:100]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:49:48:798]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:49:48:800]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:49:48:801]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:49:49:513]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:49:49:514]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:49:49:515]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:49:50:215]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:49:50:216]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:49:50:218]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:49:50:907]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:49:50:908]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:49:50:910]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:49:51:618]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:49:51:619]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:49:51:620]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:49:51:727]- LOG(157C):  -[ IDLCDialog::OnCancel() ]-
+[ 6- 1-2012 17:49:51:744]- LOG(157C): ===>>> ERROR (gle=1814, 0x716):  Msg: The specified resource name cannot be found in the image file.
+  Context: LoadString failed
+[ 6- 1-2012 17:49:52:309]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:49:52:311]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:49:52:313]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:49:53:012]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:49:53:014]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:49:53:015]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:49:53:714]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:49:53:716]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:49:53:718]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:49:54:418]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:49:54:420]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:49:54:421]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:49:55:148]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:49:55:149]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:49:55:151]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:49:55:887]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:49:55:889]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:49:55:890]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:49:56:521]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:49:56:525]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:49:56:526]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:49:57:233]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:49:57:234]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:49:57:236]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:49:57:925]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:49:57:927]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:49:57:928]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:49:58:633]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:49:58:634]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:49:58:636]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:49:59:330]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:49:59:331]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:49:59:333]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:00:035]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:00:036]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:00:038]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:00:744]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:00:746]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:00:747]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:01:435]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:01:436]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:01:438]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:02:137]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:02:138]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:02:139]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:02:842]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:02:844]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:02:846]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:03:542]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:03:559]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:03:560]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:04:242]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:04:244]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:04:245]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:04:945]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:04:946]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:04:948]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:05:658]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:05:659]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:05:660]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:06:350]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:06:351]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:06:353]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:07:051]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:07:052]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:07:054]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:07:753]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:07:754]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:07:756]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:08:457]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:08:459]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:08:461]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:09:158]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:09:160]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:09:162]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:09:860]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:09:863]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:09:865]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:10:561]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:10:563]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:10:564]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:11:273]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:11:274]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:11:276]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:11:976]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:11:977]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:11:979]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:12:670]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:12:672]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:12:673]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:13:370]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:13:372]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:13:386]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:14:071]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:14:072]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:14:074]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:14:773]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:14:775]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:14:776]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:15:482]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:15:483]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:15:485]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:16:177]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:16:179]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:16:180]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:16:880]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:16:881]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:16:883]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:17:585]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:17:587]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:17:588]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:18:291]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:18:293]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:18:294]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:18:997]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:18:998]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:19:000]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:19:697]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:19:698]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:19:700]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:20:402]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:20:404]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:20:405]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:21:151]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:21:256]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:21:260]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:21:805]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:21:806]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:21:808]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:22:496]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:22:499]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:22:501]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:23:197]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:23:199]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:23:201]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:23:899]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:23:901]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:23:903]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:24:606]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:24:608]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:24:609]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:25:306]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:25:310]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:25:312]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:26:005]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:26:007]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:26:011]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:26:709]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:26:711]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:26:712]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:27:447]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:27:576]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:27:694]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:28:113]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:28:116]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:28:119]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:28:824]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:28:826]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:28:827]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:29:520]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:29:522]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:29:524]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:30:229]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:30:230]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:30:232]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:30:920]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:30:926]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:30:928]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:31:623]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:31:624]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:31:626]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:32:323]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:32:325]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:32:327]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:33:038]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:33:039]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:33:041]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:33:729]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:33:730]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:33:732]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:34:442]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:34:444]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:34:445]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:35:135]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:35:136]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:35:138]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:35:837]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:35:838]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:35:840]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:36:535]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:36:537]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:36:539]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:37:239]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:37:241]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:37:242]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:37:946]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:37:948]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:37:949]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:38:642]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:38:643]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:38:645]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:39:343]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:39:345]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:39:346]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:40:057]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:40:058]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:40:060]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:40:751]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:40:752]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:40:753]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:41:463]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:41:465]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:41:467]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:42:152]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:42:154]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:42:155]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:42:853]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:42:854]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:42:856]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:43:559]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:43:561]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:43:562]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:44:257]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:44:259]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:44:260]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:44:959]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:44:977]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:44:979]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:45:662]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:45:664]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:45:666]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:46:371]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:46:372]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:46:374]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:47:071]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:47:072]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:47:073]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:47:769]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:47:770]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:47:772]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:48:470]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:48:471]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:48:473]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:49:178]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:49:179]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:49:181]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:49:885]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:49:887]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:49:888]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:50:577]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:50:579]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:50:580]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:51:290]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:51:291]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:51:293]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:51:981]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:51:983]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:51:984]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:52:691]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:52:692]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:52:694]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:53:386]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:53:387]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:53:389]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:54:093]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:54:094]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:54:096]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:54:790]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:54:792]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:54:793]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:55:497]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:55:498]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:55:500]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:56:191]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:56:193]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:56:194]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:56:898]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:56:900]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:56:901]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:57:595]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:57:596]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:57:598]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:58:305]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:58:306]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:58:307]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:59:003]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:59:004]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:59:006]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:50:59:703]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:50:59:704]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:50:59:706]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:00:413]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:00:414]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:00:416]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:01:106]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:01:107]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:01:109]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:01:809]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:01:811]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:01:812]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:02:522]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:02:525]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:02:526]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:03:223]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:03:224]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:03:226]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:03:921]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:03:926]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:03:928]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:04:615]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:04:616]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:04:618]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:05:318]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:05:319]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:05:321]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:06:023]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:06:025]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:06:026]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:06:721]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:06:723]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:06:724]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:07:424]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:07:425]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:07:427]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:08:137]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:08:138]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:08:139]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:08:839]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:08:840]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:08:842]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:09:541]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:09:543]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:09:544]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:10:231]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:10:232]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:10:234]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:10:945]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:10:946]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:10:948]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:11:640]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:11:642]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:11:643]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:12:350]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:12:351]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:12:353]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:13:041]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:13:043]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:13:044]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:13:753]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:13:754]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:13:756]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:14:453]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:14:454]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:14:456]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:15:152]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:15:154]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:15:155]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:15:848]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:15:850]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:15:851]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:16:555]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:16:556]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:16:558]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:17:260]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:17:262]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:17:263]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:17:965]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:17:966]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:17:968]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:18:656]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:18:657]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:18:659]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:19:369]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:19:371]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:19:374]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:20:060]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:20:061]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:20:063]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:20:762]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:20:763]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:20:765]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:21:464]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:21:466]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:21:467]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:22:170]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:22:172]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:22:173]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:22:868]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:22:870]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:22:871]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:23:580]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:23:582]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:23:584]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:24:272]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:24:274]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:24:275]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:24:973]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:24:974]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:24:976]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:25:688]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:25:690]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:25:691]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:26:377]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:26:379]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:26:380]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:27:079]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:27:080]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:27:082]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:27:786]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:27:787]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:27:789]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:28:487]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:28:488]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:28:490]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:29:190]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:29:191]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:29:193]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:29:888]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:29:890]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:29:891]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:30:594]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:30:595]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:30:597]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:31:292]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:31:293]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:31:295]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:32:001]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:32:002]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:32:004]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:32:695]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:32:696]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:32:698]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:33:409]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:33:410]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:33:411]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:34:101]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:34:102]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:34:104]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:34:814]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:34:816]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:34:817]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:35:507]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:35:509]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:35:510]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:36:211]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:36:212]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:36:214]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:36:913]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:36:914]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:36:916]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:37:615]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:37:616]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:37:618]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:38:315]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:38:317]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:38:319]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:39:015]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:39:017]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:39:018]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:39:716]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:39:717]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:39:719]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:40:423]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:40:424]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:40:426]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:41:122]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:41:124]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:41:126]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:41:832]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:41:834]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:41:835]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:42:528]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:42:531]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:42:533]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:43:226]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:43:227]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:43:229]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:43:928]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:43:929]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:43:931]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:44:633]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:44:634]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:44:636]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:45:337]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:45:338]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:45:340]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:46:038]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:46:039]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:46:041]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:46:738]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:46:740]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:46:741]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:47:443]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:47:444]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:47:446]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:48:139]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:48:140]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:48:142]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:48:851]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:48:852]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:48:854]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:49:544]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:49:546]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:49:548]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:50:246]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:50:248]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:50:249]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:50:947]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:50:948]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:50:950]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:51:661]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:51:663]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:51:664]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:52:352]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:52:354]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:52:355]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:53:065]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:53:067]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:53:068]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:53:768]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:53:769]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:53:771]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:54:460]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:54:461]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:54:463]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:55:162]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:55:163]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:55:165]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:55:862]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:55:863]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:55:865]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:56:570]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:56:571]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:56:573]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:57:274]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:57:276]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:57:277]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:57:969]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:57:971]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:57:972]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:58:673]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:58:674]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:58:676]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:51:59:372]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:51:59:373]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:51:59:375]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:52:00:082]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:52:00:083]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:52:00:085]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:52:00:775]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:52:00:777]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:52:00:780]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:52:01:477]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:52:01:479]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:52:01:480]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:52:02:186]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:52:02:188]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:52:02:189]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:52:02:883]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:52:02:885]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:52:02:886]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:52:03:583]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:52:03:585]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:52:03:586]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:52:04:285]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:52:04:289]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:52:04:290]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:52:04:988]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:52:04:990]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:52:04:992]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:52:05:693]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:52:05:695]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:52:05:696]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:52:06:393]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:52:06:395]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:52:06:405]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:52:07:099]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:52:07:100]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:52:07:102]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:52:07:796]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
+[ 6- 1-2012 17:52:07:797]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
+[ 6- 1-2012 17:52:07:799]- LOG(2550): _GetUSBDevice first time so GetClassDevs
+[ 6- 1-2012 17:52:08:130]- LOG(2550): InstallSequencer() step = 8
+[ 6- 1-2012 17:52:08:132]- LOG(2550): TerminateProgressThrd(0x2605f90)
+[ 6- 1-2012 17:52:08:134]- LOG(2550): _PostProgressMessage hWnd=0x5068a msg=1124, param=0
