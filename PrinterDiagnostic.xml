@@ -10,7 +10,7 @@
         <Interaction ID="IT_RemoteAddress">
           <Value>%TCP_PRINTERADDRESS%</Value>
         </Interaction>
-        <Interaction ID="IT_Protocol">
+sadsadsdsadsadsadsadsadds">
           <Value>6</Value>
         </Interaction>
         <Interaction ID="IT_ApplicationID">
