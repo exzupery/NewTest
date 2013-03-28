@@ -9,7 +9,7 @@
 [ 6- 1-2012 17:48:13:259]- LOG(2550):   Language ID To Be Used =     1049,   0x419
 [ 6- 1-2012 17:48:13:260]- LOG(2550): Is64BitWindows()
 [ 6- 1-2012 17:48:13:260]- LOG(2550): Is64BitWindows?  YES
-[ 6- 1-2012 17:48:13:261]- LOG(2550): OS is 64 bit
+[ 6- 1-2012 17:48:13:261]- LOG(2550): OS is 64 bit[ 6- 1-2012 17:48:13:261]- LOG(2550): OS is 64 bit[ 6- 1-2012 17:48:13:261]- LOG(2550): OS is 64 bit[ 6- 1-2012 17:48:13:261]- LOG(2550): OS is 64 bit[ 6- 1-2012 17:48:13:261]- LOG(2550): OS is 64 bit
 [ 6- 1-2012 17:48:13:262]- LOG(2550): cmdline 'PRODUCTI'
 [ 6- 1-2012 17:48:13:263]- LOG(2550): -\/\/\/- Properties -\/\/\/-
 [ 6- 1-2012 17:48:13:264]- LOG(2550): SCAN_INFNAME = agmcrdrv.inf
@@ -572,8 +572,7 @@
 [ 6- 1-2012 17:49:51:619]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
 [ 6- 1-2012 17:49:51:620]- LOG(2550): _GetUSBDevice first time so GetClassDevs
 [ 6- 1-2012 17:49:51:727]- LOG(157C):  -[ IDLCDialog::OnCancel() ]-
-[ 6- 1-2012 17:49:51:744]- LOG(157C): ===>>> ERROR (gle=1814, 0x716):  Msg: The specified resource name cannot be found in the image file.
-  Context: LoadString failed
+[ 6- 1-2012 17:49:51:744]- LOG(157C): ===>>> ERROR (gle=1814, 0x716):  Msg: The specified resource name cannot be found in the image file.  Context: LoadString failed
 [ 6- 1-2012 17:49:52:309]- LOG(2550): IsNewDeviceConnected(vidpidList with 1 elements)
 [ 6- 1-2012 17:49:52:311]- LOG(2550): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3B17)
 [ 6- 1-2012 17:49:52:313]- LOG(2550): _GetUSBDevice first time so GetClassDevs
